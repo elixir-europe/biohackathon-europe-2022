@@ -1,0 +1,35 @@
+---
+layout: page
+title: Hacking projects
+body_class: projects
+---
+
+<h2>Projects for 2021</h2>
+<p>Links to the project folders on GitHub (links open a new tab).</p>
+<section id="hacking-projects">
+    {% assign projectVersions = site.projects | sort: 'modified_date' %}
+    {% assign latestProjects = projectVersions.first %}
+</section>
+
+    <table>
+      <tr>
+        <th><strong>Project Number</strong></th>
+        <th><strong>EasyChair Number</strong></th>
+        <th><strong>Title</strong></th>
+      </tr>
+        {% for project in latestProjects.project_list %}
+        <tr>
+            <td>{{project.project_number}}</td>
+            <td>{{project.number}}</td>
+            <td><a href="{{project.link}}" target="_blank">{{project.title}}</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+
+<section>
+
+
+ <!--   <p class="mt-5">Selected hacking topics will be published here once reviewed by the BioHackathon Organising Committee. We are expecting topics to align well with the current interest of life science communities at large. These may include standardised workflows, containerisation, schemas and identifiers, ontology tooling, metadata validation, and training. We encourage submissions of hacking topics from the public and private sector.</p>-->
+    <a class="button special" href="{{ site.baseurl }}/ipdiscl.html" class="ml-4">IP Disclaimer</a>
+</section>
+

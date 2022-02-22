@@ -1,0 +1,192 @@
+---
+layout: landing
+---
+{% assign latest_landing = site.landings | last %}
+<!-- Banner -->
+<section id="banner">
+	<!-- <div class="video" onclick="location.href='{{ site.baseurl }}/about.html'" style="cursor:pointer">
+		<iframe width="100%" height="100%"
+		src="https://www.youtube.com/embed/RNIInb72-z0?autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=RNIInb72-z0"
+		frameborder="0"
+		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div> -->
+	<div class="inner">
+		<div class="logo-ban">
+			<div class="title">
+				<a href="{{ site.baseurl }}/index.html"><img src="images/logos/bhlogolightnotx.png" alt="BioHackathon logo" /></a>
+				<h2><a href="{{ site.baseurl }}/about.html">{{ site.title }}</a></h2>
+				<p>8 - 12 November 2021</p>
+				<p class="special my-5" style="font-size: 1.3em;">Registration has now closed</p>
+				<p class="mt-3 mb-4"><a href="{{ site.baseurl }}/projects.html" class="button special">PROJECTS</a></p>
+			</div>
+			<ul class="actions">
+				<li>
+					<p><a href="https://twitter.com/elixireurope">@ELIXIREurope</a><br /> <a href="https://twitter.com/hashtag/BioHackEU21">#BioHackEU21</a></p>
+				</li>
+			</ul>
+
+		</div>
+		<!--<a href="#landing-background" class="more scrolly">Learn More</a>-->
+	</div>
+</section>
+
+<!-- One -->
+<section id="landing-background" class="wrapper style3 special">
+	<div class="inner">
+		<header class="major mb-2">
+			<h2>Background</h2>
+			</header>
+			<div class="row">
+				<div class="10u 12u$(medium)">
+					<p>{{ latest_landing.background | markdownify }}</p>
+				</div>
+				<div class="2u 12u$(medium)">
+					<div class="image fit vertical-align-middle">
+						<a href="https://elixir-europe.org"><img src="images/logos/elixir_logo_white.png" alt="ELIXIR logo"/></a>
+					</div>
+				</div>
+			</div>
+
+	</div>
+</section>
+
+<!-- One -->
+<section class="wrapper spotlight">
+	<div class="inner">
+			<div class="row">
+				<div class="5u 12u$(medium)">
+					<img src="images/ryota-yamanaka.jpg" alt="Ryota Yamanaka" style="width: 100%;" loading="lazy" />
+					<p class="small line-height-1 mb-2 mt-3">&ldquo;This hackathon terrifically accelerates our open-source projects, breaking all the barriers between biology and computing, academia and industry, and distances among great participants!&rdquo;</p>
+						<p class="small font-italic line-height-1 muted-color">- Ryota Yamanaka<br /> (Oracle, Regional Product Manager Asia-Pacific)</p>
+				</div>
+				<div class="2u 12u$(medium)">
+
+				</div>
+				<div class="5u 12u$(medium)">
+					<img src="images/niall-beard.jpg" alt="Niall Beard" style="width: 100%;" loading="lazy" />
+					<p class="small line-height-1 mb-2 mt-3">&ldquo;An unmissable opportunity to accelerate development, initiate collaborations, broaden your professional network, and gorge on cheese and wine.&rdquo;</p>
+						<p class="small font-italic line-height-1 muted-color">- Niall Beard<br /> (Senior Research Software Engineer and Training Manager, University of Manchester)</p>
+				</div>
+			</div>
+		</div>
+</section>
+
+<!-- One -->
+<section class="wrapper spotlight style4" id="landing-remote-access">
+	<div class="inner">
+			<h2>Remote access</h2>
+			<p>This year we are planning to hold the BioHackathon in Barcelona, with remote access for those who cannot attend in person. We will make the final decision on whether the event will have an in-person meeting by 1 August.  While we all prefer face-to-face participation, if the circumstances do not allow for this we will strive to recreate the spirit of BioHacakthon Europe virtually, as we did in 2020. Remote access will be organised by each project leader. We will provide a live stream of reporting sessions.</p>
+
+	    <p>We believe the new format will allow everyone to participate in the BioHackathon and deliver tangible outcomes from the selected projects.</p>
+
+	    </div>
+</section>
+
+<!-- Two -->
+<section id="landing-scope" class="wrapper alt style2">
+	<section class="spotlight">
+		<div class="image">
+			<img src="images/table-working.jpg" alt="Working around a table" loading="lazy" />
+		</div>
+		<div class="content">
+			<h2>Scope</h2>
+			<p>{{ latest_landing.scope | markdownify }}</p>
+		</div>
+	</section>
+	<section id="landing-goal" class="spotlight">
+		<div class="image">
+			<img src="images/table-discussion.jpg" alt="Discussion around a table" loading="lazy"/>
+		</div>
+		<div class="content">
+			<h2>Goals</h2>
+			<ul class="x-bottom-padding">
+				<li>Advance the development of an open source infrastructure for data integration to accelerate scientific innovation. We will focus on technology implementations such as FAIR, identifiers, metadata standards, ontologies and metadata catalogues that support the operations across <a href="https://www.elixir-europe.org/platforms" target="_blank">ELIXIR Platforms</a> (Compute, Data, Interoperability, Tools, and Training).</li>
+				<li>Engage technical people in the bioinformatics community inside and outside ELIXIR to work together on topics of common interest aligned to ELIXIR activities</li>
+				<li>Strengthen the interactions with ELIXIR Platforms and Communities to establish and reinforce collaborations through hands-on programming activities.</li>
+			</ul>
+		</div>
+	</section>
+	<section id="landing-funding" class="spotlight">
+		<div class="image">
+			<img src="images/painting-group.jpg" alt="Three people showing their painting" loading="lazy" />
+		</div>
+		<div class="content">
+			<h2>Expenses and funding</h2>
+			<p>Registration for the BioHackathon is free, however you will have to pay your own travel, food and accommodation expenses. ELIXIR will pay expenses for a limited number of participants for accepted projects. More information will be published as it becomes available. </p>
+			<p>Please be aware that those who register as face-to-face participants must stay at the venue for the duration of the event. This is to optimise the value of on-site interaction and collaboration.</p>
+			<!--<a href="{{ site.baseurl }}/registration.html" class="button special">REGISTRATION</a>-->
+			
+		</div>
+	</section>
+	<section id="landing-benefit" class="spotlight">
+		<div class="image">
+			<img src="images/laptop-discussion.jpg" alt="Discussion over a laptop" loading="lazy" />
+		</div>
+		<div class="content">
+			<h2>Benefits</h2>
+			<h4>New developments</h4>
+			<ul>
+				<li>Integrating prototypes, proof-of-concept proposals or drafts into production</li>
+			</ul>
+			<h4>Existing developments and resources</h4>
+			<ul>
+				<li>Testing new versions</li>
+				<li>Gathering information for new features</li>
+				<li>Reaching out to new users</li>
+				<li>improving awareness</li>
+				<li>Receive input from experts in a different field</li>
+			</ul>
+			<h4>Personal and community building</h4>
+			<ul>
+				<li>Learning collaboratively with peers</li>
+				<li>Sharing interests to organise or grow communities</li>
+				<li>Meet and make new contacts</li>
+			</ul>
+		</div>
+	</section>
+</section>
+
+<!-- Three -->
+<section id="landing-processprop" class="wrapper style4 spotlight">
+	<div class="inner">
+		<h2>Hacking projects</h2>
+<p>For the 2021 BioHackathon, 37 projects have been chosen. The topics align with the current interest of life science communities at large. These include standardised workflows, containerisation, schemas and identifiers, ontology tooling, metadata validation, and training. 
+</p>
+<a href="{{ site.baseurl }}/projects.html" class="button special">Projects</a>
+	</div>
+	</section>
+<section class="wrapper spotlight" id="coc">
+		<div class="inner">
+			<h2>Code of Conduct</h2>
+			<p>The <a href="https://elixir-europe.org/events/code-of-conduct">ELIXIR Code of Conduct</a> has been created so all participants at ELIXIR events organised and/or funded by the ELIXIR Hub can interact with each other in a respectful and safe environment, and have avenues to turn to in case they believe there has been a breach to this Code of Conduct.</p> 
+		</div>
+</section>
+	<!-- Three -->
+	<section id="landing-industry" class="wrapper style3">
+	<div class="inner">
+		<div class="row">
+			<div class="8u 12u$(medium)">
+		<h2><i class="fas fa-industry"></i> Industry engagement</h2>
+		<p>People from diverse companies are encouraged to participate. If you have any questions, for example regarding the scope of the event, contact the ELIXIR Industry Officer:<br /> Kathi Lauer<br /><a href="mailto:katharina.lauer@elixir-europe.org">katharina.lauer@elixir-europe.org</a></p>
+		<a href="{{ site.baseurl }}/images/bh-2021-flyer-industry.pdf" target="_blank" class="button special">Industry flyer</a>
+		</div>
+		<div class="4u 12u$(medium)">
+			<p class="small line-height-1 mb-2 mt-3">&ldquo;It was an amazing experience...Two teams embraced our challenge to demonstrate the validity of edge computing. We reached our goal of connecting with the bioinformatics community and creating awareness for a new technology.	No doubt we will participate in the future.&rdquo;</p>
+				<p class="small font-italic line-height-1 muted-color">- Natalia Jimenez<br /> (Atos)</p>
+
+		</div>
+		<!-- <ul class="features">
+			<li class="feat">
+				<h3><i class="fas fa-industry"></i> Industry engagement</h3>
+				<p>Companies interested in submitting hacking projects should submit their project proposals via the Easy Chair Submission System. The projects will be evaluated alongside the academic project proposals by the programme committee. If you have any questions, for example regarding the scope of your project, contact Kathi Lauer (ELIXIR Industry Officer).</p>
+				<a href="{{ site.baseurl }}/images/BioHackathon_Industry_Flyer.pdf" class="button fit special">More info</a>
+				<a href="mailto:katharina.lauer@elixir-europe.org" class="button fit special">Contact</a>
+			</li>
+			<li class="feat">
+				<h3><i class="fa fa-code"></i> Call for proposals</h3>
+				<p>The call for hacking projects is open from <b>2nd March </b>and will close on <b>30th April</b> 2020. All project submissions will submitted through the EasyChair submission system by the nominated project lead and should include the following details </p>
+				<a href="{{ site.baseurl }}/projects" class="button fit special">Projects</a>
+			</li>
+		</ul> -->
+	</div>
+	</section>

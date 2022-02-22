@@ -1,0 +1,77 @@
+# Welcome to Jekyll!
+#
+
+# Site settings
+title: BioHackathon Europe
+description: Barcelona 8-12 November 2021
+owner: Elixir HUB # or company name
+first_published: 2021 # if migrating another site, the year of your first publish
+email: webmaster@elixir-europe.org
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://elixir-europe.github.io/biohackathon-europe-2021/" # the base hostname & protocol for your site
+social:
+  twitter: https://twitter.com/hashtag/BioHackEU21
+  github: https://github.com/elixir-europe/biohackathon-europe-2021
+  #linkedin-square: https://www.linkedin.com/company/9501702
+  #facebook-official: https://facebook.com/<username>
+  #google-plus-square: https://plus.google.com/u/0/+<username>
+  email: mailto:dana@scientifika.eu
+  #flickr:
+  #instagram:
+  #youtube-square:
+  #spotify:
+  #stack-overflow:
+  #vimeo:
+  #reddit:
+  #stubleupon:
+  #delicious:
+  #pied-piper:
+  #digg:
+  #soundcloud:
+  #deviantart:
+  #angellist:
+  #tumblr-square:
+  #stackexchange:
+  #weibo:
+  #trello:
+  #foursquare:
+  #linux:
+  #bitbucket-square:
+  #vk:
+  #slack:
+  #vine:
+  #weixin:
+  #yelp:
+  #skyatlas:
+  #leanpub:
+  #connectdevelop:
+  #ils:
+  #forumbee:
+  #tripadvisor:
+  #amazon:
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - scripts
+
+# Build settings
+markdown: kramdown
+#sass:
+#  style: compressed
+
+collections:
+  programmes:
+    output: true
+    permalink: /:collection/:path/
+  landings:
+    output: true
+    permalink: /:collection/:path/
+  committee:
+    output: true
+    permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/

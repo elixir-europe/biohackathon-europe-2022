@@ -1,0 +1,922 @@
+#,EventBrite,Authors,Title,Leads for Project,Expected outcomes,Expected participants,Nominated participant,Number of days for project,Topics,Time,Decision,Keywords,Abstract
+1,1,Leyla Jael García Castro and Dietrich Rebholz-Schuhmann,Follow-up analysis on BioHackathon-Europe outcomes,"Leyla Jael Garcia Castro <ljgarcia@zbmed.de> * corresponding author
+ Dietrich Rebholz-Schuhmann <rebholz-schuhmann@zbmed.de>","* Initial assessment on what BioHackathon-Europe outcomes should be targeted
+ * Initial assessment on what analyses should be performed
+ * Preliminary data model
+ * Prototype on data gathering from GitHub and corresponding representation on a knowledge graph","* People who has participated in a BioHackathon and interested in following up software outcomes from it
+ * People with some knowledge on software citation and versioning on GitHub
+ * People with some knowledge on GitHub API
+ * People with some knowledge on RDF triple stores or other graph databases","* Benjamin Wolff <wolff@zbmed.de>
+ * Lisa Langnickel <langnickel@zbmed.de>",4 days,"Data Platform
+ Interoperability Platform
+ Machine learning
+ Tools Platform","Feb 28, 16:31",Accepted,"Research software,
+ Knowledge graph,
+ Data analysis,
+ Open science,
+ GitHub","One of the recurring questions when it comes to BioHackathons is how to measure their impact. In order to do so, we first need to understand the outcomes from a BioHackathon. Some possible outcomes are software, publications and collaborations. Such outcomes could be analyzed from activity post-hackathon on GitHub repositories as well as publications generated out of BioHackathon topics. For the particular case of the BioHackathon-Europe, which has been running only for two years now, we propose to focus on GitHub activity post-BioHackathon. We want to learn about what happens with the ..."
+2,2,Marek Suchánek,Machine-Actionable Data Stewardship Wizard,"Marek Suchánek, Faculty of Information Technology CTU in Prague (ELIXIR-CZ), marek.suchanek@fit.cvut.cz","- RDF vocabularies covering the domain of data stewardship
+ - DMP template for current model/ontologies-compliant RDF
+ - New integrations with registries and other tools used across ELIXIR
+ - Features and improvements of DSW and/or plans for that","- Ontologists
+ - Data stewards
+ - Researchers with experience with DMPs
+ - Registries/Tools developers (for integrations)","- Rob Hooft, Dutch Techcentre for Life Sciences, rob.hooft@dtls.nl
+ - Tomasz Miksa, SBA Research / chair DMP Common Standards WG (RDA) / TU Wien, miksa@ifs.tuwien.ac.at",4,"Data Platform
+ Interoperability Platform
+ Tools Platform","Mar 22, 12:59",Accepted,"data stewardship,
+ data management plan,
+ FAIR data,
+ machine-actionable DMP,
+ DMP templates","Data Stewardship Wizard (DSW, ds-wizard.org) is a flexible tool that helps data stewards and researchers in building data management plans together. DSW is being actively developed and new features are regularly included according to the current needs of users. In terms of the content, direct collaboration with researchers and data stewards is necessary. Currently, it is possible to build DMP templates to any output format, as well as to create or to customize questionnaires according to the needs of any field of science or institutional regulations. Moreover, integrations with other ..."
+3,,Gustavo Salazar,Nightingale,"Gustavo Adolfo Salazar Orejuela (gsalazar@ebi.ac.uk)
+ Xavier Watkins (xwatkins@ebi.ac.uk)","- Develop components beyond the protein scope. E.g. using a genome as reference, or visualization of sequence alignments.
+ - Improvement of existing components. E.g. A richer sequence viewer component.
+ - Implement the ideas of the playground area as part of the components documentation.
+ - Define themes across components using css variables.","Web Developer, Web users of biological data.","Aurélien Luciani (luciani@ebi.ac.uk)
+ Swaathi Kandasaamy (swaathik@ebi.ac.uk)
+ Daniel Rice (dlrice@ebi.ac.uk)",4 days,"Data Platform
+ Tools Platform","Mar 23, 10:29",Rejected,"Data Visualization,
+ Biological Data,
+ JavaScript,
+ Web Development,
+ Web Components,
+ D3","Nightingale is a project that provides a set of web components to visualize biological information. The first set of components developed is centered on protein data that can be displayed as tracks in reference to the protein sequence. For example, Uniprot uses these components to display protein features such as binding sites and other regions of interest, e.g. https://www.uniprot.org/uniprot/P02042/protvista InterPro on the other hand uses nightingale components to display the location of families and domains e.g. https://www.ebi.ac.uk/interpro/protein/reviewed/P02042/ Similarly the PDB-KB ..."
+4,38,Sirarat Sarntivijai,Wine (Ontology) Tasting: testing technicality in practicality for the food industry,"Sirarat Sarntivijai, sirarat.sarntivijai@elixir-europe.org
+ Jane Lomax, jane@scibite.com
+ Damion Dooley, Damion.Dooley@bccdc.ca
+ Joan Marc Reira, marc@ribox.co.uk","1) A summary of findings - Pros & Cons of each wine ontology examined and their capability of data integration and interoperability.
+ 2) The test dataset that is curated and mapped to existing wine ontology (-ies) with a follow-up plan of technical implementation at the wine merchant’s database.
+ 3) A report of interoperability between the wine ontologies and Food Ontology for reuse of FoodOn as an application ontology in the practice.","- members learning database curation by ontologies
+ - building application ontologies",- local wine expert (to be named),2-4,"Data Platform
+ industry
+ Interoperability Platform
+ Training Platform","Mar 23, 12:01",Accepted,"ontology,
+ interoperability,
+ wine,
+ wine ontology,
+ food ontology","https://docs.google.com/document/d/1buY6kI4ysiD8g6PoFYyknHZnaSDfdGfIszd04J9kVLM/edit# Machine learning in high-variability areas, such as food and nutrition, is a very complex problem. Data mining with machine learning is an urgency for the study of dietary intolerance and allergies, especially when accurate labeling is required by laws. Large-scale databasing also introduces demands for structuring information of manufacturer’s data. Lack of semantic implementation to structure food data is a resolvable challenge that can be overcome by using existing technologies equipped with knowledge ..."
+5,3,Giacomo Tartari,ELIXIR Service Bundle for Epidemic Response,"Castrense Savojardo castrense.savojardo2@unibo.it
+ 
+ Pier Luigi Martelli pierluigi.martelli@unibo.it","The ideal final outcome would be a draft ELIXIR Service Bundle that can link together different workflows, tools and literature resources, and can provide a platform for a quick response in case of an outbreak, for example finding candidates for drug retargeting or finding phenotypes naturally resistant to the infection.","Bioinformatics
+ Container 
+ Workflow","Castrense Savojardo castrense.savojardo2@unibo.it
+ 
+ Pier Luigi Martelli pierluigi.martelli@unibo.it",4,"Containers
+ Data Platform
+ Plant Sciences
+ Proteomics
+ Tools Platform","Mar 30, 15:08",Accepted,"Service Bundle,
+ Pandemic,
+ Epidemic,
+ Containers,
+ Workflows","In the last few decades we have seen the surfacing and spreading of many novel pathogenic viruses. Some were mutations of the traditional influenza viruses, and some were viruses that crossed the animal-human divide and became a threat to human lives. An example of the former is the influenza A (H1N1) virus that caused a pandemic in 2009 [1], while an example of the latter are highly pathogenic avian influenza A(H7N9), A(H5N1), and A(H5N6), low pathogenic avian influenza A(H7N2), swine influenza A(H1N2)v and A(H3N2) [2]. In he above cases, when a novel virus or bacterial strain for which ..."
+6,4,John Zobolas,Unified Biological Dictionaries + PubDictionaries = a curator’s life dream,"- John Zobolas <john.zobolas@ntnu.no> (AUTHOR1)
+ - Jin-Dong Kim <jdkim@dbcls.rois.ac.jp>
+ - Martin Kuiper <martin.kuiper@ntnu.no>
+ - Steven Vercruysse <steven.vercruysse@ntnu.no>","- Update PubDictionaries web-server API to incorporate the specification of a general VSM-Dictionary: https://github.com/vsmjs/vsm-dictionary/blob/master/Dictionary.spec.md
+ - Create a new biological dictionary interface (https://github.com/UniBioDicts) that communicates with the PubDictionaries API
+ 
+ The work during the Biohackathon will be split like this:
+ - 1-2 day(s) to clarify the API specification and what PubDictionaries needs to change + the code update on the server side.
+ - 2 day(s) to implement the client package that uses the above API.","2 participants are required for the realization of this project. One developer from the PubDictionaries side (REST-API technology, Ruby) and one from the UniBioDicts side (REST-API technology, JavaScript). The first participant is the corresponding author (AUTHOR1 - John Zobolas), the second one of the project leads (see nominated participant).","Nominated participant: Jin-Dong Kim <jdkim@dbcls.rois.ac.jp>, who is the main developer and project leader of the PubDictionaries (http://pubdictionaries.org/) and PubAnnotation (http://pubannotation.org/) platforms.",4 days,"Data Platform
+ Interoperability Platform
+ Tools Platform","Mar 31, 16:40",Accepted,"public-dictionaries,
+ rest-api,
+ curation,
+ knowledge-representation,
+ knowledge-annotation,
+ ontology-search","The curation of biological information faces lots of challenges today. The constant refactoring of ontologies, nomenclature and identifiers, as well as the discovery of new information, makes the life of knowledge curators difficult, especially in the highly diverse biology domain. For example, expert curators who use software tools to help them with the annotation process, might come across a new feature or functionality that does not exist within an ontology or data resource that their annotation tool connects to. Similar difficulties are faced by biologists who want to quickly curate ..."
+7,,Stian Holmås,Querying and Visualisation of the Semantic Web Open Data Cloud,Stian Holmås - stian@holmas.com,"The combined result will be a vastly increased utilisation of the large Linked Open Data resources, for biological network building and network-based systems biology approaches. A secondary impact may be the generation of a community that adopts standards to streamline querying and visualisation of semantic web data for network editors like Cytoscape.","People with skills in scripting. Basic knowledge about XML, Semantic Web / RDF/ TTL formats, biological network building. Cytoscape (App) developers.",Vladimir Mironov - vladimir.n.mironov@gmail.com,4,"Cancer
+ Data Platform
+ Federated Human Data
+ Interoperability Platform
+ Microbial Biotechnology
+ Plant Sciences
+ Proteomics
+ Tools Platform","Apr 01, 09:08",Rejected,"Cytoscape App,
+ Open Data Cloud,
+ Data parsing,
+ RDF data standards,
+ ELIXIR core resources,
+ XML config file,
+ Exploratory network building","The Linked Open Data cloud currently consists of 1239 datasets that are interlinked with other sets in that cloud, forming a potentially extremely useful resource of RDF data. These data includes the most valuable ELIXIR resources such as UniProtKB, Ensembl, and IntAct. Whereas these data are very widely accessed through their websites, their consumption through SPARQL endpoints, at least by the average biologists, is negligible. BioGateway (www.biogateway.eu) is an RDF database hosted as an instance of the OpenLink Virtuoso, providing integrated access to these types of high quality data. ..."
+8,5,Carlos Ruiz Arenas,Detection of epimutations to improve the diagnosis of rare diseases,"Carlos Ruiz Arenas. Universitat Pompeu Fabra, Centro de Investigación Biomédica en Red de Enfermedades Raras. carlos.ruiza@upf.edu. Author1
+ 
+ Luis A Pérez-Jurado. Universitat Pompeu Fabra, Centro de Investigación Biomédica en Red de Enfermedades Raras. luis.perez@upf.edu
+ 
+ Alejandro Cáceres. Barcelona Institute for Global Health (ISGlobal). alejandro.caceres@isglobal.org","A working prototype of our tool, which would allow running a full epimutation analysis. We propose the following tasks during the hackathon:
+ 1. Discuss different statistical approaches to address the problem, including some approaches proposed by the team leaders.
+ 2. Apply approaches discussed in point 1 to public DNA methylation datasets with cases and control samples.
+ 3. Implement the best performing approach in a R package, following Bioconductor guidelines
+ Further work will be done to fully test tool parameters and to submit the package to Bioconductor.","Researchers with knowledge of biostatistics
+ Researchers with experience in software development and plots design.",Alejandro Cáceres. alejandro.caceres@isglobal.org,4 days,"Cancer
+ Machine learning
+ Rare Disease
+ Tools Platform","Apr 01, 09:19",Accepted,"Rare disease,
+ Tools,
+ cancer,
+ epigenetics,
+ genetics","ELIXIR’s rare disease community aims to facilitate tools to researchers for rare disease research. Currently, most available tools explore genetic and genomic mutations. Although these variants have provided a diagnosis for many patients and families, around 60% of the cases still remained undiagnosed (Lionel et al, 2018). Aberrant methylation can be an underlying cause of undiagnosed patients, either as a primary event (a.k.a. epimutation) or as a functional consequence of chromatin dysregulation by genetic or environmental agents (a.k.a. episignature). Epimutations are the cause of some ..."
+9,,Helena Rasche,Training Platform modules for Enhanced Community Interaction and Curriculum Development,Helena Rasche <helena.rasche@gmail.com>,"1. Evaluation of current strategies and needs of different training communities to host curricula, including discussions within and across ELIXIR training communities
+ 2. Integrated curriculum builder within the Galaxy training platform
+ 3. Reusability of ideas and components across other training platforms.",We're looking for trainers from across the ELIXIR communities to have lively discussions regarding the advancement of community and collaborative experiences within existing training platforms and how we can enhance those experiences going forward. We are additionally looking for Javascript developers to help us implement the visions that solidify over the first day.,"Helena Rasche <helena.rasche@gmail.com>
+ Saskia Hilteman <saskiahiltemann@gmail.com>",4,"Galaxy
+ Training Platform","Apr 01, 14:41",Rejected,"training,
+ communication,
+ discussion forum,
+ curriculum development,
+ javascript","Training is an integral part of the life sciences and specifically the ELIXIR Galaxy community. In collaboration with GOBLET and the ELIXIR Training Platform, the Galaxy Training Network (GTN) developed an infrastructure to deliver open, peer-reviewed and FAIR training material with >120 tutorials developed by >100 contributors, available at training.galaxyproject.org, for scientists, developers, and system administrators. This project will focus on: **Community Interaction**: We will make the training materials finally an interactive and collaborative platform allowing community members to ..."
+10,,Norman Davey,Improving the interoperability of the core intrinsically disordered protein (IDP) function and interaction resources,"Norman Davey - Institute for Cancer Research, London, UK - norman.davey@icr.ac.uk
+ Balint Meszaros - European Molecular Biology Laboratory, Heidelberg, Germany - balint.meszaros@embl.de",Improved interoperability in the functional IDP resources,"Database developers - developers from the core data repositories in the IDP field.
+ Experimentalist in IDP function field - data producers for each of the experimental approaches tackled in the project.
+ Standards experts - researchers with a background in the implementation of the PSI-MI dissemination standards.
+ FAIR experts - researchers with an understanding of FAIR approaches to data storage and dissemination.
+ Programmers - coders with an interest in RESTful APIs, storage/dissemination standards and data FAIRification.","Norman Davey - Institute for Cancer Research, London, UK - norman.davey@icr.ac.uk
+ Balint Meszaros - European Molecular Biology Laboratory, Heidelberg, Germany - balint.meszaros@embl.de",4,"Data Platform
+ Interoperability Platform
+ Intrinsically Disordered Community
+ Proteomics","Apr 01, 18:34",Rejected,"Intrinsically Disordered Proteins,
+ Protein-Protein Interactions,
+ Interoperability,
+ PSI-MI Standards,
+ Database,
+ REST APIs","The intrinsically disordered protein field generates large amounts of structural and functional data. These data are curated and stored by several core IDP data repositories for structure (such as SASBDB (Valentini et al. 2015), PCDDB (Whitmore et al. 2017) and the BMRB (Ulrich et al. 2008), and the DisProt resource (Piovesan et al. 2017)); and for function (such as the Eukaryotic Linear Motif resource (ELM) (Kumar et al. 2020), the DIBS repository (Schad et al. 2018), and the MFIB repository (Fichó et al. 2017)). A key goal of the ELIXIR IDP community is to improve the interpretation and ..."
+11,,Argyrios Alexandros Gardelakos,panoptes: monitor computational workflows in real time,"- Argyrios Alexandros Gardelakos, agardelakos@gmail.com
+ - Georgios Kostoulas, georgekostoulas@gmail.com",A feature complete application to visualize and monitor the execution of workflows.,"Bioinformaticians, web developers, programmers but everyone is more than welcome.","- Georgios Ntalaperas, gntalap@gmail.com, Visualization & Data transformation expert
+ - Foivos Gypas, foivos.gypas@unibas.ch, Programmer, Bioinformatics expert (Swiss Institute of Bioinformatics)",4 days,"Compute Platfrom
+ Tools Platform","Apr 19, 20:13",Rejected,"Workflows/Pipelines,
+ Visualization,
+ Web","Bioinformaticians and data scientists rely on computational frameworks (e.g. snakemake, CWL, nextflow) to process, analyze, integrate and annotate data of various types. Such frameworks allow scientists to combine software and custom tools of different origin in a unified way, which lets them reproduce the results of others, or reuse the same pipeline on different datasets. Most of these frameworks allow the execution of workflows on cluster (SLURM, SGE) or cloud (AWS, Google Cloud Platform) environments. A fundamental issue is that the majority of the users execute multiple pipelines at the ..."
+12,,Georgios Ntalaperas,Tracktor: genomic and transcriptomics plots at the click of a button,"Georgios Ntalaperas gntalap@gmail.com
+ Foivos Gypas foivos.gypas@unibas.ch","A lightweight genome browser where users can navigate in different genomic loci and easily generate different plots (e.g. coverage tracks, sashimi) and export them in high resolution formats for publication purposes.","ui developers
+ bioinformaticians
+ web developers
+ insights experts","Argyrios Alexandros Gardelakos agardelakos@gmail.com
+ Georgios Kostoulas georgekostoulas@gmail.com",4,"Data Platform
+ Tools Platform
+ Training Platform","Apr 22, 19:23",Rejected,"visualisation,
+ dashboard,
+ UI,
+ transcriptomics,
+ genome browser","The amount of new High Throughput Sequencing experiments is increasing every year and bioinformaticians and data scientists spend a substantial amount of time processing, analyzing and interpreting these datasets. Due to the increasing demand, it is crucial to reduce or (ideally) eliminate the amount of hands on time in each dataset. Towards to this direction, the community has come up with solutions that include the adaptation to new technologies, the development of novel and more efficient algorithms and actively involving in the analysis and the education of the scientists who generate ..."
+13,6,Pjotr Prins,Improving BioHackrXiv.org,"Pjotr Prins <jprins@uthsc.edu>
+ ""Garcia-Castro, Leyla Jael"" <ljgarcia@zbmed.de>
+ Tazro Ohta <t.ohta@dbcls.rois.ac.jp>","* Forms for entering metadata as part of submission
+ * Extract metadata from paper
+ * RDF store with metadata and SPARQL end point","There will be people working locally and remotely on this. Participants may be interested in ontologies, text mining, and some web programming.","Pjotr Prins <jprins@uthsc.edu>
+ Thomas Liener <liener.tom@gmail.com>",4,"Bioschemas
+ Compute Platfrom
+ Covid-19
+ Tools Platform","Apr 24, 14:09",Accepted,"bioinformatics,
+ publishing,
+ DOI,
+ metadata,
+ RDF",BioHackrXiv is the publishing platform for Biohackathons. For this hackathon we aim to improve the editorial/submission process by automating generation of publications and creating useful metadata in the form of RDF which gets exposed through a SPARQL end point. In addition we would like to link up Jupyter and R markdown notebooks so authors can publish live code with their static papers.
+14,7,David Salgado,CNV detection software containerisation and benchmark,"David Salgado - david.salgado@univ-amu.fr - author1
+ Salvador Capella-Gutierrez - salvador.capella@bsc.es
+ Krzysztof Poterlowicz - K.Poterlowicz1@bradford.ac.uk
+ Björn Grüning - bjoern.gruening@gmail.com","All these steps will allow the group to generate a step-by-step for users to do the same process for any set of tools and therefore will be useful to any community of users within ELIXIR and beyond.
+ This project will provide incredible outcomes for the ELIXIR hCNV community, the Tools platform (bio.tools, OpenEbench, Galaxy …), will serve as a use-case for the Strategic Implementation Study BioContainers, and any other user community that would like to test a large batch of software in a reproducible and easy to deploy environment within available computational infrastructures.","Any contributor is welcome but participants with skills in container creation, benchmarking and any other Elixir Services (data, tools, compute and training) are expected.",To be defined once the project accepted. Will be one of the project leaders or additional contributors such as Steve Laurie CNAG-CRG or Lennart Johansson UMCG,4,"Compute Platfrom
+ Containers
+ Data Platform
+ Galaxy
+ Human Copy Number Variation
+ Rare Disease
+ Tools Platform
+ Training Platform","Apr 28, 09:28",Accepted,"CNV,
+ Containers,
+ Data sets,
+ Galaxy,
+ Training,
+ Benchmark,
+ Metrics","The main objective of this project is to allow an efficient, unbiased and reproducible way to benchmark a set of tools through software containerization. Here we will use Copy Number Variation detection tools as a use-case. Copy Number Variations are mutational events vital for evolution and they play an important role in diseases. Even if CNVs are the most prevalent genetic mutation type, identifying and interpreting them is still a major challenge. The ELIXIR human Copy Number Variation (hCNV) Community aims to implement processes to make the detection, annotation, and interpretation of ..."
+15,8,Mihaly Varadi,Integrating modelling services with the 3D-Beacons network,"Mihaly Varadi - mvaradi@ebi.ac.uk*
+ Sreenath Nair - sreenath@ebi.ac.uk
+ Ian Sillitoe - i.sillitoe@ucl.ac.uk
+ Gerardo Tauriello - gerardo.tauriello@unibas.ch","* Discussions on standardised data exchange formats to suit the various data providers, decreasing fragmentation of the data.
+ * Updating the 3D-Beacons Registry with the required meta-information on new data providers
+ * Implementation of API endpoints according to the 3D-Beacons API specification
+ * Integration of the 3D-Beacons client for processing and converting model files to data exchange format (.mmcif, .pdb)
+ * Extending the 3D-Beacons Hub to establish connections with the new data provider beacons
+ * Developing a proof of concept 3D Beacon network of structural models related to SARS-CoV-2.","bioinformaticians/scientific programmers (data structures, data access mechanisms, data processing pipelines)","Sreenath Nair - sreenath@ebi.ac.uk
+ Ian Sillitoe - i.sillitoe@ucl.ac.uk",2,"Covid-19
+ Data Platform
+ Proteomics","Apr 28, 15:02",Accepted,"data integration,
+ structural bioinformatics,
+ theoretical structure models,
+ experimentally determined structures","3D-Beacons is a new platform being developed under the umbrella of the ELIXIR 3D-BioInfo Community. The primary objective of 3D-Beacons is to serve as a common portal that provides FAIR access to experimental and predicted protein structures in a transparent way, such that the data provenance is clear to the end-users. Combining access to data resources that provide experimentally determined structures from the Protein Data Bank (PDB) and modelled structures (e.g. Genome3D, SWISS-MODEL) will provide maximum possible coverage of the protein sequence space. To avoid ascribing the same level of ..."
+16,9,Malvika Sharan,"The Turing Way: A how-to guide to reproducible, ethical and inclusive data research",AUTHOR1 Malvika Sharan (msharan@turing.ac.uk),"- Capturing important aspects of research reproducibility in bioinformatics
+ - Documenting useful case studies and exceptions when managing and sharing data in life science research
+ - Contributions to the collaboratively developed chapter on topics such as project design, collaboration, communication, and data research inspired by their projects
+ - Bioinformatics examples to be added to the current chapters on GitHub, git, Jupyter, Binder, continuous integration, license, FAIR principles, etc.
+ - Adding visualization and interactivity in the existing or new chapters
+ - Enhanced visibility of the ELIXIR members as contributors and co-authors in The Turing Way project (current contributors are listed here: https://github.com/alan-turing-institute/the-turing-way/blob/master/README.md)","Participants with the following skills will be able to join and work on this project:
+ 
+ - Interest in contributing to an Open Source project through GitHub
+ - Willingness to share their research skills and experiences in the form of learning resources, training materials, case studies of personal stories
+ 
+ Optional skills: 
+ - Knowledge of working with git, Jupyter Book, Binder, or Netlify
+ - Previously developed bioinformatics resources that they would like to host on The Turing Way as a chapter of part of other chapters
+ - Interest in translating existing chapters in other languages that their ELIXIR node and benefit from","Tony Yang (tony@tony.ac)
+ Sarah Gibson (sgibson@turing.ac.uk)",3,"industry
+ Interoperability Platform
+ Machine learning
+ Training Platform","Apr 28, 16:25",Accepted,"Data Research,
+ Open Source,
+ Training,
+ Learning resource,
+ Bioinformatics case studies","Reproducible and ethical research is necessary to ensure that scientific work can be trusted. Funders and different stakeholders of scientific projects are beginning to require that publications and research outreach include access to the underlying data and analysis code. The goal is to ensure that all results can be independently verified and built upon in future work. This is sometimes easier said than done. Sharing data and code in bioinformatics require a common understanding of the scientific concepts, data management, software development, and data sharing techniques: skills that are ..."
+17,10,Jon Ison,EDAM and Tool Information Profiles,"Jon Ison (jon.c.ison@gmail.com) - corresponding author
+ Hans Ienasescu (hans@bio.tools) 
+ Erik Jaaniso (erik.jaaniso@ut.ee)","One or more of the following:
+ * An EDAM release targeting ELIXIR and other communities 
+ * Python library for EDAM application development
+ * EDAM technical development (conceptual relations)
+ * Tool Information Profile for 4OSS metrics and labels in bio.tools
+ * General-purpose Tool Information Profile for bio.tools
+ * Scoping of new applications of EDAM and Tool Information Profiles","Ontology experts
+ Programmers
+ ELIXIR community representatives","Jon Ison, jon.c.ison@gmail.com
+ Alban Gaignard, alban.gaignard@univ-nantes.fr",4,"Cancer
+ Federated Human Data
+ Galaxy
+ Human Copy Number Variation
+ Interoperability Platform
+ Intrinsically Disordered Community
+ Marine Metagenomics
+ Metabolomics
+ Microbial Biotechnology
+ Plant Sciences
+ Proteomics
+ Rare Disease
+ Tools Platform","Apr 29, 11:40",Accepted,"Software tools,
+ Software metrics,
+ Ontologies","We will host discussion and hacking sessions on one or more of the following: 1. EDAM ontology (https://github.com/edamontology/edamontology/) developers and scientists working together to scope and hack collaborative EDAM releases tailored for the needs of specific life-science / biomedical communities, for example targeting the annotation of community-defined portfolios of key analytical software. Scientific domains will include emerging and established ELIXIR communities, and others, such as crop research, rare diseases, bioimage analysis, metabolomics, protein structural bioinformatics. ..."
+18,11,Hans Ienasescu,bio.tools integration and sustainable development,"Hans Ienasescu (hans@bio.tools) (corresponding author-author1)
+ Erik Jaaniso (erik.jaaniso@ut.ee)
+ Jon Ison (jon.c.ison@gmail.com)","One or more of the following:
+ - Design of future smart bio.tools registration interface leveraging EDAM and EDAMmap
+ - Technical plan for better use of EDAM for bio.tools search
+ - Implementation of biotoolsLint for tool information verification in the ELIXIR Tools ecosystem
+ - Optimised methods for auto-generation of bio.tools content
+ - Technical scoping of methods to render similar tools in bio.tools","Angular 2+ programmers
+ Python programmers
+ Text mining experts
+ Ontology experts
+ Elasticsearch experts
+ Data science experts","Hans Ienasescu (hans@bio.tools)
+ Erik Jaaniso (erik.jaaniso@ut.ee)",4,"Machine learning
+ Tools Platform","Apr 29, 11:43",Accepted,"Software tools,
+ Ontologies,
+ Text mining,
+ Web development,
+ Data science","bio.tools is an ELIXIR Tools Platform service which provides a discovery portal for bioinformatics software information. We will host discussion and hacking sessions on one or more of the following: Design a future smart registration interface which leverages EDAM and EDAMmap (https://github.com/edamontology/edammap) to facilitate tool description creation and improve the user experience at registration time. This may include the following aspects: - user supplies a tool-related publication ID, i.e. DOI, PMID or PMCID (or possibly some other relevant text or website), EDAMmap is invoked ..."
+19,12,Mark Wilkinson,“Federated” query by agents,Mark D Wilkinson (mark.wilkinson@upm.es),"Expected outcomes: Some of the strategy for achieving the goals has been planned within other similar projects, such as the Personal Health Train and Farm Data Train (where several of the Hackathon participants are involved in those projects). As such, we can anticipate having a working strawman prototype by the end of four days. This will then be evaluated (post-hackathon) by the other members of the technical architecture team of EJP, as well as by these peer communities, with the aim of reaching a final architecture proposal with at least one reference implementation, to put forward to the public by early 2021.","Coders in Ruby or Python; experience with Linked Data, SPARQL, Docker, and ontologies; good grasp of HTTP Protocols.","Mark D Wilkinson
+ Pablo Alarcon",4,"Containers
+ Data Platform
+ Federated Human Data
+ GA4GH partnership
+ Interoperability Platform
+ Rare Disease","Apr 29, 13:23",Accepted,"FAIR Data,
+ distributed query,
+ federated query,
+ agent-based data integration","The European Joint Programme on Rare Diseases (EJP-RD) is building an interoperability platform for registries and biobanks for rare diseases. RD registries are diverse in size, content, and form, and are widely dispersed throughout Europe, including several hundred small single-disease-focused registries being run by non-technical experts. Notably, this is among the most sensitive of all data, in particular because the rarity of the diseases make personal identification much easier to achieve with fewer data points. The EJP-RD technical platform consists of data entry/transformation tools, ..."
+20,13,Emma Schymanski,Extension and Continuous Integration of Cheminformatics Resources and Applications,"Emma Schymanski emma.schymanski@uni.lu corresponding
+ Steffen Neumann sneumann@ipb-halle.de
+ Evan Bolton bolton@ncbi.nlm.nih.gov","CI for data extraction from PubChem
+ CI for data import into MetFrag
+ Automated workflows for data deposition to PubChem
+ Prototype for functional Fingerprint for ChEBI Categories; integration into MetFrag
+ Improved handling of transformation product pairs (Rhea/PubChem/NORMAN-SLE)","Evan Bolton (data provider and integrator, NCBI, cheminformatics)
+ Venkatesh Muthukrishnan (data provider, EBI, ChEBI)
+ Thierry Lombardot (data provider, SIB, Rhea)
+ Emma Schymanski (data provider, consumer, developer, Uni Lu (ELIXIR-LU))
+ Steffen Neumann (workflow developer, IPB Halle, DE)
+ Laurent Gatto (likely only remotely: PubChem - R package integration, BE)
+ Egon Willighagen (cheminformatics, ELIXIR Interoperability Platform)
+ Denise Slenter (data provider, consumer, WikiPathways)
+ Other hosts or contributors to small molecule databases
+ Other developers of identification workflows","Evan Bolton (PubChem) <bolton@ncbi.nlm.nih.gov>
+ Venkatesh Muthukrishnan <venkat@ebi.ac.uk>",4,"Compute Platfrom
+ Data Platform
+ Interoperability Platform
+ Metabolomics
+ Tools Platform","Apr 29, 14:09",Accepted,"Compound databases,
+ Small Molecule characterisation,
+ Metabolite identification,
+ Continuous integration,
+ Transformation products,
+ Classification,
+ Exposomics,
+ Metabolomics,
+ Cheminformatics","Answering complex biological, environmental or toxicological questions requires the integration of information (e.g. chemicals, spectra, metadata, biochemical pathways) across resources. This information is generally accessed via online queries or (potentially preprocessed) local copies in various bioinformatics approaches. One such approach is MetFrag (https://msbi.ipb-halle.de/MetFrag/), an in silico metabolite identification tool that accesses chemical databases like PubChem (https://pubchem.ncbi.nlm.nih.gov/) or ChEBI (https://www.ebi.ac.uk/chebi/), and spectral libraries like MassBank ..."
+21,39,Natalia Jimenez,Unlock the value of your data computing at the edge,"Author 1, Nicholas Allsopp - nicholas.allsopp@atos.net
+ Author 2, Albert Trill - albert.trill@atos.net","There are no rules or constraints; we want you to enjoy playing with Atos Edge, however, we would be interested in watching a demo of your work at the end of the bio hackathon. 
+ What we want to prove is that traditional data centres and edge computing are the perfect blend to provide powerful analytics and machine learning inference capabilities.","Researchers developing workflows
+ Any research with an interest in accelerating an application 
+ Galaxy users
+ Anyone with an interest in exploring edge computing","Author 1, Nicholas Allsopp - nicholas.allsopp@atos.net
+ Author 2, Albert Trill - albert.trill@atos.net","That would depend on the nature of the workflow, application or use case chosen by the hacker. We would expect an average of three days.","Compute Platfrom
+ Galaxy
+ Machine learning","Apr 29, 15:57",Accepted,"High Throughput Devices,
+ Big Data,
+ Edge Computing,
+ Analytics,
+ Artificial Intelligence,
+ Machine Learning","The exponential growth of high throughput devices, such as next generation sequencing or electron microscopy is generating an unprecedent amount of raw data that needs to be processed, analysed and exploited. The challenge lies in the capability to turn the big data produced by the life sciences workflows into actionable insights. How to do that as quickly as possible while ensuring that all data remains safe and secure? BullSequana Edge has been designed to meet these challenges, delivering powerful AI inference and streaming analytics capabilities at the edge. We propose you to prove the ..."
+22,,Bachir Balech,Taxonomy harmonization: Metazoa taxonomy use case,"Bachir Balech (corresponding): b.balech@ibiom.cnr.it; balechbachir@gmail.com
+ Monica Santamaria: m.santamaria@ibiom.cnr.it
+ Graziano Pesole: g.pesole@ibiom.cnr.it","- Prototyping of a tool or a standardized workflow able to highlight the differences in taxonomic paths among several data sources and at the same time proposes a solution for unresolved taxa based on standard taxonomy checklists.
+ - Prototyping of a text mining tool able to explore a valid solution to correct taxa names based on scientific literature. 
+ - Recommendations and perspectives toward a global taxonomic alignment model.","- Text mining developer
+ - Workflows developer
+ - Taxonomist
+ - Big data scientist","- Anna Sandionigi: anna.sandionigi@unimib.it
+ - Donat Agosti: agosti@amnh.org",4,Biodiversity,"Apr 29, 15:58",Rejected,"Biodiversity,
+ Taxonomy,
+ DNA barcode,
+ Reference database","In DNA Barcoding and metabarcoding studies, the use of curated and well structured reference databases is fundamental to correctly assign sequencing reads to known taxa. Unfortunately, taxonomic classification is not well harmonized across the most commonly used reference databases. In this context, taxonomic classification alignment, correction and update are important tasks to achieve. Generally, the DNA COX1 barcoding region is used for animals metabarcoding experiments. The main data sources providing COX1 sequence information are ENA (https://www.ebi.ac.uk/ena) and BOLD ..."
+23,14,Ignacio Eguinoa,Exporting rich metadata and provenance from Galaxy using RO-Crate packaging.,"Ignacio Eguinoa (ignacio.eguinoa@psb.ugent.be) - corresponding author
+ Frederik Coppens (frcop@psb.vib-ugent.be)","Being able to import/export RO-Crate objects representing workflow templates and workflow enactments into/from Galaxy. Initially through the API and possibly also embedding this into the UI.
+ Enable end-users to generate digital objects from Galaxy that contain the minimal provenance information needed for reproducing the executed workflow and deposit this in registries such as WorkflowHub and OpenAIRE.","Ideally, the project requires experts with experience in the Galaxy code to be able to capture all details of a workflow execution, but would benefit from the contribution of any Python developer as well as the interaction with participants of several other projects: e.g WorkflowHub,RO-Crate and CWL PROV)","Marius van den Beek - Galaxy Team member (m.vandenbeek@gmail.com)
+ John Chilton - Galaxy Team member(jmchilton@gmail.com)",4,"EOSC-life
+ Galaxy
+ Interoperability Platform","Apr 29, 17:12",Accepted,"Galaxy,
+ CWL,
+ CWL-Prov,
+ RO-Crate,
+ Research Objects,
+ Provenance","Workflows are essential pieces of software for any computational research in life sciences and as such are digital objects in their own right, encapsulating methodological know-how. A great deal of work has been put into developing solutions to simplify the creation of workflows, functional annotation of bioinformatics software tools, as well as their virtualization, containerization and assembly into workflows for automatically executing the processes. This way, we currently have highly comprehensive and easy to use WMS such as Galaxy, enabling researchers to create workflows through a user ..."
+24,15,Eva Martin del Pico,FAIR4Software. Automated indicators and metrics measurement.,Eva Martin del Pico (eva.mdpico@gmail.com) - author1,"Work towards a sustainable Software Quality Observatory for Life Sciences based (partially) in the work around FAIR4Software metrics and indicators. Also, the seed of platform agnostic reference implementations to measure these metrics.","software developers
+ software end-users","Morane Gruenpeter. Software Heritage (morane.gg@gmail.com)
+ Neil Chue Hong. Software Sustainability Institute (n.chuehong@software.ac.uk)",2 for discussions and 2 for hacking specific aspects,Tools Platform,"Apr 29, 19:03",Accepted,"FAIR,
+ automation,
+ monitoring,
+ software good practices","Research software are digital objects that depending on the context resemble research data. However, the dynamic nature of research software has led to the community to propose specific instantiations of the FAIR principles for software. Taking into account a number of efforts in this direction, we have implemented in OpenEBench an initial set of indicators and metrics derived from those principles. This non-exhaustive set of metrics and indicators provide the possibility to have a first glance at the FAIRness level of research software across Life Sciences. Measurements are deemed automated ..."
+25,16,Alexander Kanitz,The ELIXIR Cloud & AAI Platform: Operationalising GA4GH Cloud standards,"Alexander Kanitz <alexander.kanitz@unibas.ch> <corresponding author>
+ Jonathan Tedds <jonathan.tedds@elixir-europe.org>
+ Shubham Kapoor <shubham.kapoor@csc.fi>","Rollout of ELIXIR Cloud & AAI platform to first users is planned for the second half of 2020 and, depending on progress, may coincide with BioHackathon. Possible expected outcomes therefore include:
+ - Integration of individual components into tool stack via automated deployment recipes
+ - User testing / bug hunting
+ - Interoperability testing with other GA4GH-compatible clients and services (e.g., workflow or task execution services)
+ - Official beta release of integrated tool stack
+ - Writing documentation for end users, developers and system admins
+ - First steps towards FAIR teaching materials
+ - Adding additional features to service components or clients","Audience:
+ - Web developers
+ - DevOps
+ - End users (biologists/bioinformaticians)
+ 
+ Useful skills:
+ - Web development (preferably Python, Go and/or React)
+ - REST/HTTP microservices
+ - Kubernetes
+ - CI/CD
+ - OpenID Connect / OAuth2 / AAI","1. Alexander Kanitz <alexander.kanitz@unibas.ch>
+ 2. Shubham Kapoor <shubham.kapoor@csc.fi>",4,"Compute Platfrom
+ Containers
+ Data Platform
+ EOSC-life
+ Federated Human Data
+ GA4GH partnership
+ Human Copy Number Variation
+ Interoperability Platform
+ Marine Metagenomics
+ Rare Disease
+ Tools Platform","Apr 29, 20:59",Accepted,"Cloud computing,
+ GA4GH,
+ Microservice,
+ AAI,
+ Workflow,
+ FAIR,
+ Federation","The exponential increase in the amounts of data generated in the biomedical sector as well as the vast computational resources required to analyse and integrate them, present veritable barriers to the advancement of science and medicine. The sensitivity of health-related data further requires sophisticated security measures to be in place, which are difficult to implement and maintain in a world of fragmented IT infrastructure as is typically found across hospitals, research centers and industry. To help overcome these obstacles, the Global Alliance for Genomics and Health (GA4GH), an ..."
+26,17,Nicola Soranzo,Improve the support of Common Workflow Language in Galaxy,"Nicola Soranzo <nicola.soranzo@earlham.ac.uk>
+ Hervé Ménager <herve.menager@pasteur.fr>
+ John Chilton <john.chilton@gmail.com>
+ Michael Crusoe <mrc@commonwl.org>","- Implement CWL 1.2 conditionals in Galaxy
+ - Advance the merge of the separate branch into the upstream Galaxy repository to be part of the next release of Galaxy
+ - Implement a new ""Simplified Workflow execution UI"" in Galaxy
+ - Export Galaxy workflows to non-abstract CWL","Software developers with either Python or Web Frontend development skills (especially JavaScript/Vue.js), with or without an initial experience of development in Galaxy and/or CWL.","Marius van den Beek <m.vandenbeek@gmail.com>
+ Nicola Soranzo <nicola.soranzo@earlham.ac.uk>",4,"Compute Platfrom
+ EOSC-life
+ Galaxy
+ Interoperability Platform
+ Marine Metagenomics
+ Tools Platform","Apr 29, 22:26",Accepted,"Workflows,
+ Interoperability,
+ Galaxy,
+ CWL","The field of bioinformatics has seen increasing use of the Common Workflow Language (CWL) standards to systematically describe computational pipelines. The 2018 ELIXIR Implementation Study “Enabling the reuse, extension, scaling, and reproducibility of scientific workflows” demonstrated how CWL tool and workflow descriptions can be shared and reused across different workflow executors and workflow management systems (e.g. Toil, Galaxy, CWLEXEC, Cromwell, etc.), addressing the assembly and functional annotation of transcriptomes from isolated marine eukaryotes. One of the main tasks of ..."
+27,,Pierre Larmande,FAIRification pipelines for (plant)-Genomics,"Pierre Larmande
+ pierre.larmande@ird.fr","a summary of the existing standard file format and ontologies that can be used
+ a set of mappings rules for each file format to progress on FAIRification 
+ a set of technical implementations for the file conversion
+ a test UI dedicated to resource providers","- python programming knowledge
+ - RDF and web semantic notions
+ - any interested people","Vincent Emonet, Maastricht Univ
+ vincent.emonet@maastrichtuniversity.nl",4 days,"Federated Human Data
+ Interoperability Platform
+ Plant Sciences","Apr 30, 02:33",Rejected,"FAIR,
+ RDF,
+ Semantic Web,
+ Workflow,
+ Genomics,
+ GFF,
+ GVCF,
+ GAF","FAIR principles provide guidelines to improve the findability, accessibility, interoperability, and reuse of digital assets. However, they leave to the communities to specify the actions necessary for their implementation without favoring any particular technology or standard and to define appropriate metrics. The FAIRification process consists of the several steps which are described for instance at the GO-FAIR portal. Currently, the process is largely done using Semantic Web and Linked Data technologies which already provide operational means to enhance findability and interoperability of ..."
+28,18,Marco Antonio Tangaro,Hardening and Testing Galaxy cluster support with BioContainer,Marco Antonio Tangaro <ma.tangaro@ibiom.cnr.it> (IT),"- Testing Galaxy cluster support, through Galaxy runners, e.g. for HTCondor, Kubernetes, Mesos, etc.
+ - Improve Container orchestrator support in Galaxy.
+ - Improve job resubmission support.","- Type of participants: Developers, DevOps, System Administrators
+ - Knowledge: basic Galaxy admin knowledge, Job scheduling
+ - Skills: Bash, Python","Marco Antonio Tangaro <ma.tangaro@ibiom.cnr.it> (IT) - Ansible, Bash, Cloud computing, Docker, Galaxy, Python
+ 
+ Pablo Moreno <pmoreno@ebi.ac.uk> (UK) - Galaxy on Kubernetes, Galaxy on LSF, Cloud computing, Python, Ansible, Bash",4 days,"Compute Platfrom
+ Galaxy
+ Tools Platform","Apr 30, 07:46",Accepted,"Galaxy,
+ Distributed Resource Manager,
+ BioContainer Orchestrators","Galaxy is an open-source web framework for easy-to-use, reproducible, and shareable computational life science research, that is used across all ELIXIR nodes and serve thousands of users. Galaxy can run jobs using a plethora of different infrastructures (local, batch schedulers, container orchestrators, etc.) through different “Galaxy job runners”. However, support for different infrastructures through these runners is not uniform (some runners support certain features in certain infrastructures) and so it needs to be continuously updated and tested. During the Biohackathon, we will: - ..."
+29,19,Manuel Bernal Llinares,Support tools for efficient FAIRification of Data Resources in life sciences,Manuel Bernal Llinares <mbernal@ebi.ac.uk>,"The outcome of this project will be a fast lightweight tool, for FAIRification of data provided by resources registered in identifiers.org, which can easily be integrated within Identfiers.org or third party applications.","This project is expected to attract the attention of the bioinformatics community who are interested in working with any of the following technologies: Javascript, HTML5, CSS3, Java, Python, Django, Shell Script, Kubernetes and Google Cloud.","Javier Ferrer <jferrer@ebi.ac.uk>
+ Nick Juty <nick.juty@manchester.ac.uk>",4,Interoperability Platform,"Apr 30, 08:32",Accepted,"FAIR,
+ Compact Identifiers,
+ Citation,
+ Interoperability","The Identifiers.org system is a central infrastructure for findable, accessible, interoperable and re-usable (FAIR) data. It provides a range of services to generate, resolve and validate persistent Compact Identifiers to promote the citability of individual data providers and integration with e-infrastructures [1,2]. The Identifiers.org registry[4] contains hundreds of manually curated, high quality data collections, with each assigned a unique prefix. A combination of the prefix and a locally assigned database identifier (accession) forms a Compact Identifier, [prefix]:[accession]. For ..."
+30,20,Anna Sandionigi,CAB: Computer Aided Biodiversity,"Anna Sandionigi anna.sandionigi@unimib.it (corresponding)
+ Dario Pescini dario.pescini@unimib.it","- A tool to query the database (i.e. ENA) using a list of unique taxonomic code (TAXID)
+ 
+ - Retrieve geographical and molecular information (gene tag) and at the same time to correct the possible incongruences (ex. two different gene names for the same accession) using text-mining strategies
+ 
+ - The creation of an efficient visualization of queries output (interactive dashboard)","- basic programming in python or R
+ - text-mining
+ - taxonomy data management
+ - data visualization","Donat Agosti agosti@amnh.org (text-mining expert)
+ Bachir Balech b.balech@ibiom.cnr.it (taxonomy data management expert)",4,"Biodiversity
+ Data Platform
+ Tools Platform","Apr 30, 08:35",Accepted,"biodiversity,
+ nucleotide database,
+ taxonomy,
+ text-mining,
+ data visualization,
+ information retrieval","Currently, the management and visualization of molecular data have become a key point due to the strong increase in the availability of information and the consequent possibility to improve our abilities to inference new rules. Studies investigating biodiversity are a clear example of how, collecting more information such as species distribution, community composition, and the presence of invasive or endangered species, we can improve our knowledge of ecosystems and our ability to understand the interactions among organisms. In recent years, metagenomic approaches (e.g. metabarcoding) based ..."
+32,21,Mateusz Kuzak,Adoption of Software Management Plans (SMPs),"Mateusz Kuzak (m.kuzak@esciecencenter.nl) corresponding
+ Allegra Via (allegra.via@cnr.it)
+ Fotis Psomopoulos (fpsom@certh.gr)","1. Set of guidelines for different stakeholders
+ 2. Set of software project stages
+ 3. Set of core requirements
+ 4. Requirements grouped by the stages","research software engineers, researchers developing software, anyone involved in research software development process","Steve Crouch (s.crouch@software.ac.uk)
+ Dimitrios Bampalikis (dimitrios.bampalikis@nbis.se)",4 (2 for discussions and 2 for hacking specific aspects).,Tools Platform,"Apr 30, 08:56",Accepted,"Software Sustainability,
+ Research Software,
+ FAIR,
+ Research Software Engineering,
+ Software Beset Practices,
+ Software Management Plans","The Software Development Best Practices Working Group of the ELIXIR tools platform has been working on the development of the Software Management Plan (SMP) template that can be used across ELIXIR projects. The software management plan has a form of a checklist that can be filled in by the Research Software Engineer (RSE). During the development of the SMP, we have faced two main challenges (1) SMP should be usable not only by the RSEs but also by researchers who develop software, principal investigators (PIs), policymakers and funders, (2) we don’t want to overwhelm developers with an ..."
+33,22,Daniela Butano,Federating Accessible InterMine Resources,"Daniela Butano - daniela@intermine.org
+ Jerven Bolleman - Jerven.Bolleman@sib.swiss","1. Generate a dynamic R2RML mappings starting from the InterMine core model
+ 2. Execute some queries using Ontop (or D2R server) and CovidMine resource
+ 3. Execute some federated queries using UniProt
+ 4. Run a set of complex sparql queries to verify that translation of SPARQL queries -> SQL queries works well","1. SPARQL/RDF/Semantic Web developers
+ 2. People with resources with a relational backend who want to provide a similar mechanism","Jerven Bolleman - Jerven.Bolleman@sib.swiss
+ Daniela Butano - daniela@intermine.org",4,"Bioschemas
+ Covid-19
+ Data Platform
+ Federated Human Data
+ Interoperability Platform
+ Plant Sciences","Apr 30, 09:10",Accepted,"Data Interoperability,
+ Data Integration,
+ Semantic Web,
+ Federated Interoperability,
+ COVID 19","InterMine, an ELIXIR Recommended Interoperability Resource, is a platform to integrate life science data. The many InterMine installations around the world contain information on diverse organisms, including human data, model animals, plants and drug targets. An InterMine instance stores all its data in a relational database. This data can be accessed through a set of RESTful web service APIs, with direct support for many common programming languages such as Python, JavaScript, Java and R. In order to increase data interoperability and enable federated queries among different resources, we ..."
+34,,Bérénice Batut,Open Life Science: Development of ELIXIR open science training modules,Bérénice Batut (berenice.batut@gmail.com),"- The content of Open Science training resources from the first cohort will be transferred from google documents to the website and made freely available under CC-BY license (currently listed here: https://openlifesci.org/ols-1), so others can re-use these materials for their own programs. 
+ 
+ - New materials will be designed and drafted with the help of the Biohackathon attendees during the event to capture the useful resources from ELIXIR tools and training platforms, as well as different ELIXIR communities.
+ 
+ - Newly developed materials will be integrated into the Open Life Science program and shared openly through its website. These resources will be used in the program in 2021 with the mentees of the 3rd and 4th cohort.
+ 
+ - ELIXIR members who have been involved in the project as mentors and mentees during the first and second cohorts will be interviewed with their consent, and their perspectives and experiences will be shared with our future participants.
+ 
+ - New members will be invited to join us as mentors, mentees, and experts for the mentoring rounds in 2021.
+ 
+ - After the hackathon, we will write a white paper, targeted at F1000, to summarise OLS feedback and opinions from ELIXIR members and program participants.","Required:
+ - Anyone interested in Open Science and preferably with some previous experience of participating in Open Research projects
+ - Interest to share ideas and skills that would be useful for early-stage researchers in designing and running their projects openly
+ 
+ Optional: 
+ - Knowledge of using git and GitHub (to work on our GitHub repository: https://github.com/open-life-science/)
+ - Any previously developed training or learning resources that they would like to share with others through the OLS program","Bérénice Batut (berenice.batut@gmail.com)
+ Malvika Sharan (malvikasharan@gmail.com)",3,"Data Platform
+ Tools Platform
+ Training Platform","Apr 30, 10:21",Rejected,"open science,
+ open data,
+ open source,
+ open research,
+ open education,
+ collaboration,
+ leadership,
+ training,
+ mentoring","Science is most impactful when shared, enabling access to information, technology re-use, and advancement of knowledge. To foster a culture of sharing and inclusion within research, we designed Open Life Science (OLS, https://openlifesci.org/). It is a 16-week online mentorship and cohort-based training, where participants are supported in creating, leading, and sustaining Open Science projects. The first cohort of this program ran from February to May 2020, with 29 mentees and 20 mentors. Their projects aimed to solve technical and cultural questions in bioinformatics by involving ..."
+36,,Alban Gaignard,FAIR-Checker,"Alban Gaignard: alban.gaignard@univ-nantes.fr (corresponding) 
+ Marie-Dominique Devignes: marie-dominique.devignes@loria.fr 
+ Thomas Rosnet: thomas.rosnet@france-bioinformatique.fr","- a summary of the existing implementation of FAIR evaluation metrics 
+ - a set of documented SPARQL queries and SHACL rules to progress on FAIRification 
+ - a set of technical recommendations to address failed FAIR checks / metrics 
+ - a web UI dedicated to resource providers","semantic web and knowledge graphs enthusiasts 
+ web developers 
+ any interested people","Thomas Rosnet (thomas.rosnet@france-bioinformatique.fr)
+ Petros Papadopoulos (P.Papadopoulos@hw.ac.uk)",4,"Bioschemas
+ Data Platform
+ Interoperability Platform
+ Tools Platform
+ Training Platform","Apr 30, 10:24",Rejected,"FAIR metrics,
+ FAIR maturity indicators,
+ BioSchemas,
+ Knowledge Graphs,
+ RDF SPARQL SHACL","FAIR principles provide guidelines, without favoring particular technologies or standards. Systematic and transparent means to evaluate FAIR properties of digital objects are critical in the context of open and reproducible science. Up to now, FAIR evaluation services have mainly consisted of online surveys, filled manually (refer to https://fairassist.org ). Besides the FAIR Maturity Evaluation service (https://fairsharing.github.io/FAIR-Evaluator-FrontEnd), few initiatives address the automated FAIR assessment of digital objects. The ELIXIR-FR node is currently developing a web ..."
+37,23,Yo Yehudi,Extending and implementing InterMine databases for ELIXIR nodes,"* Yo Yehudi yo@intermine.org
+ Flavio Licciulli flavio.licciulli@ba.itb.cnr.it
+ Rémi Planel remi.planel@pasteur.fr
+ Hervé Menager herve.menager@pasteur.fr","- 1-2 new data visualisations created that can be used across the dozens of InterMines in existence
+ - Better BLAST integration for InterMine instances.
+ - Generate additional collaborations / plans to create new InterMine instances with biohackathon participant data.","JS developers, especially data visualisers
+ People with BLAST software skills
+ People with data they would like to integrate or analyse in InterMine","Yo Yehudi - yo@intermine.org
+ Flavio - flavio.licciulli@ba.itb.cnr.it",4,Interoperability Platform,"Apr 30, 11:05",Accepted,"intermine,
+ open source,
+ elixir france,
+ elixir italy,
+ collaboration,
+ recommended interoperability resource","InterMine, an ELIXIR Recommended Interoperability Resource, collaborated in early 2020 with members from ELIXIR France and ELIXIR Italy to build two InterMine databases based on data from each of those nodes. Over a two-week period, node representatives collaborated to integrate data into the two new InterMine instances, learning how to administer and configure InterMine. This resulted in prototype versions of InterMine known as InterMirMine for ELIXIR Italy, and Genolist for ELIXIR France. During this time the participants also identified extensions to the work done over these two weeks ..."
+38,24,Alasdair Gray,Exploiting Bioschemas Markup in Community Registries,Alasdair Gray A.J.G.Gray@hw.ac.uk,"Bioschemas markup crawled
+ Markup fed into community aggregators
+ Markup improving search results","Community registry providers
+ - FAIRDARE: Cyril Pommier
+ - IDPCentral: Ivan Micetic, Andras Hatos
+ - Orphanet: Marc Hanauer, David Lagorce, Céline Rousselot
+ Scraper expertise: Petros Papadopoulos","Petros Papadopoulos <p.papadopoulos@hw.ac.uk>
+ Ivan Micetic <ivan.micetic@unipd.it>",4,"Bioschemas
+ Interoperability Platform
+ Intrinsically Disordered Community
+ Plant Sciences
+ Rare Disease","Apr 30, 12:53",Accepted,"Bioschemas markup,
+ Web scraping,
+ Knowledge graphs","Bioschemas has the potential to automate the collection of content from the long-tail of scientific resources for community registries such as FAIRDARE for the plant community or Orphanet for the Rare Disease community. This can be achieved by scraping structured markup from the web resources and depositing it with the community registry. This provides a single mechanism to collect data from hundreds of sources with minimal effort from the resource provider; they only need to maintain a website in which schema markup is embedded. However, it requires the registry provider to be able to ..."
+39,25,Simon Heumos,Federated Interoperable Annotated Variation Graphs,"Simon Heumos (simon.heumos@qbic.uni-tuebingen.de)*corresponding author
+ Erik Garrison (erik.garrison@ucsc.edu)
+ Jerven Bollemann (jerven.bolleman@sib.swiss)
+ Toshiyuki Yokoyama (toshiyuki.t.yokoyama@gmail.com)
+ Lukas Heumos (lukas.heumos@posteo.net)
+ Philipp Ehmele (philipp_ehm@protonmail.com)","1. Container to deploy a variation graph as a SPARQL endpoint on European cloud
+ systems.
+ 2. Example queries integrating datasets.
+ 3. Linear time algorithm for public preserving variation graph node identity.
+ 4. Demonstrate that we can enrich a local visualization of a privacy protected cancer sample with public available SPARQL endpoint data.","1. SPARQL/RDF/Semantic Web developers
+ 2. Variation graph toolkit developers
+ 3. Workflow enthusiasts
+ 4. Experience with data visualization using JavaScript","Erik Garrison (erik.garrison@ucsc.edu)
+ Simon Heumos (simon.heumos@qbic.uni-tuebingen.de)",4,"Cancer
+ Containers
+ Covid-19
+ Data Platform
+ Federated Human Data
+ GA4GH partnership
+ Interoperability Platform
+ Marine Metagenomics
+ Plant Sciences","Apr 30, 14:10",Accepted,"FAIR,
+ SPARQL,
+ Variation Graph,
+ Interoperable,
+ Pangenome Visualization",Variation Graphs are data structures that can accurately represent genetic variation in populations and across species. While avoiding inherent biases in linear reference genomes. We will use this hackathon to improve how variation graph tools can produce FAIRer data that is highly interoperable and reusable. We will engage with the (bio)container projects and workflow communities to present our computational outcomes as FAIR research objects. Interoperability will be improved by continuing work on SPARQLable views on highly compressed variation graph data structures. This engages with ...
+40,,Sjoerd de Vries,"Interactive workflows to model ssRNA-protein interactions, applied to SARS-Cov-2 targets","Sjoerd de Vries
+ RPBS platform, Paris, France
+ sjoerd.de-vries@inserm.fr","An interactive protocol and web interface for the modeling the 3D structure of protein-bound ssRNA for two SARS-CoV-2 proteins. Eventually, this will become a generic web service for modeling the 3D structure of ssRNA complexes.
+ 
+ For the rest, the expected outcome is dependent on how much information will be available on the two SARS-CoV-2 proteins in November. It will also depend of the expertise of the participants. For goal 2b, the expertise within our lab is sufficient, and we are happy to share it with any participant who is interested. Conversely, we hope to attract the interest of participants with experience with workflows and interoperability, in particular to achieve goal 3. We hope that Seamless brings something useful to the table. Still, Seamless is a young project and we hope to profit from the best practices developed in the ELIXIR community over the years.","Participation of at least three PhD students and two post-docs from structural bioinformatics labs of the RNAct consortium (http://rnact.eu/) is confirmed. For goals 2a and 3, we hope for help from engineers/researchers in general bioinformatics, in particular developers of workflows. Experts in data mining/annotation would be helpful for goal 1. For goal 3, we hope for experts in UX and scientific visualization.","1. Isaure Chauvot de Beauchene, CAPSID team, Nancy, France
+ Email: isaure.chauvot-de-beauchene@loria.fr
+ 
+ 2. Sjoerd de Vries, RPBS platform,Paris, France
+ Email: sjoerd.de-vries@inserm.fr",4,"Covid-19
+ Data Platform
+ Interoperability Platform
+ Tools Platform","Apr 30, 14:31",Rejected,"workflows,
+ ssRNA-protein interaction,
+ SARS-Cov-2","As a workflow management system, Seamless (http://github.com/sjdv1982/seamless) is unusual since the workflow is continuously executed while being defined. Data, source code, schemas and UX can all be changed on the fly, as they are all first-class citizens of the workflow. Such agility is an advantage when tools and data are constantly in flux, such as the present flurry of research activity around the SARS-CoV-2 virus. The project aims to create two interactive workflows to model the 3D structure of protein-bound single-stranded RNA (ssRNA) for two SARS-CoV-2 proteins which unbound ..."
+41,26,Hirotaka Suetake,Sapporo WES as a Public Web Service,"- Hirotaka Suetake (suehiro619@gmail.com)
+ - Manabu Ishii (manabu@genome-analytics.co.jp)
+ - Tomoya Tanjo (tanjo@nii.ac.jp)","- Sharing the system components with the other WES developers such as the WES-Elixir team
+ - Creating PoC when combining WES with DRS or TRS
+ - Creating a public web service that actually makes it easy for users to run workflows","- experiences with the GA4GH API standards
+ - Workflow Languages
+ - Workflow Engines
+ - Workflow Execution Service
+ - Web frontend","- Hirotaka Suetake (suehiro619@gmail.com)
+ - Tomoya Tanjo (tanjo@nii.ac.jp)",4 days,Compute Platfrom,"Apr 30, 15:32",Accepted,"- Sapporo,
+ - Workflow Language,
+ - Workflow Execution Service,
+ - GA4GH Cloud API standards,
+ - Common Workflow Language","We have been developing Sapporo as a Workflow Execution Service (WES) in DDBJ. This system has been developed with an emphasis on the use of various workflow engines in a closed computing environment for sensitive human genome data. Therefore, it is not designed to cooperate with the other GA4GH API definitions such as Data Repository Service (DRS) and Tool Resistory Service (TRS). Extending the Sapporo system to follow these standards will make the system usable on a public computing instance, which can be used with the other WES implementations. At the previous BioHackathons in Paris and ..."
+42,,Andra Waagmeester,"Aligning of schemas between (Bio)schemas, Wikidata and beyond","Andra Waagmeester (andra@micel.io) * Corresponding author
+ Jose Emilio Labra Gayo (jelabra@gmail.com)
+ John Samuel (johnsamuelwrites@gmail.com)
+ Birgit Meldal (bmeldal@ebi.ac.uk)
+ Alejandro González Hevia
+ Daniel Fernández","Identification of areas where the current tools can be improved to low the ShEx knowledge barrier
+ Improvement of selected ShEx editors
+ Integration with Wikidata","People with knowledge on Wikidata, ShEx and programming skills (Javascript and possibly Python/Java)","Andra Waagmeester (Andra@micel.io)
+ Jose Emilio Labra Gayo (jelabra@gmail.com)",4,"Bioschemas
+ Data Platform
+ Interoperability Platform
+ Tools Platform","Apr 30, 15:34",Rejected,"Schema extraction,
+ ShEx,
+ Wikidata,
+ Bioschemas,
+ interoperability","Wikidata is the public knowledge graph of the Wikimedia Foundation. Intended as a data hub for the sister projects such as Wikipedia for articles and Wikimedia Commons for images. However, as an open and accessible source for knowledge Wikidata extends beyond the Wikimedia sister projects. Various projects such as Gene Wiki, Wikiproject Covid 19, align knowledge with Wikidata and this knowledge is available as linked data for the life sciences. Various tools and methods exist for a straightforward integration of knowledge. One of the challenges remains the alignment of underlining schemas ..."
+43,27,Marek Ostaszewski,An interface between Galaxy and disease maps,"1) Marek Ostaszewski, marek.ostaszewski@uni.lu, corresponding author
+ 2) Andrew P. Stubbs, a.stubbs@erasmusmc.nl
+ 3) Chris T. Evelo chris.evelo@maastrichtuniversity.nl","- A working interface between Galaxy, the MINERVA Platform and WikiPathways
+ 
+ - Two new Galaxy workflows for visualization of analysis results on the diagrams of choice
+ 
+ - New capabilities for two user groups: Galaxy, MINERVA and WikiPathways, for better analytics and visualization of biomedical data.
+ 
+ - An application of the new capabilities using PanCanNet (https://www.pancan.org) to facilitate and speed up the functional analysis of multi-omics experimental results generated by medical researchers.
+ 
+ - A peer-reviewed publication based on the outcomes of the workshop, and finalized afterwards.","Bioinformaticians familiar with Galaxy workflow construction and development of connectors to external APIs
+ Bioinformaticians using Galaxy for genetic variant or transcriptome analysis
+ Bioinformaticians and computational biologists working on pathway and disease maps analysis","Willem de Koning, Erasmus MC, w.dekoning@erasmusmc.nl
+ Helena Rasche, Erasmus MC, helena.rasche@gmail.com",4,"Cancer
+ Covid-19
+ Galaxy
+ Interoperability Platform
+ Rare Disease
+ Tools Platform","Apr 30, 15:54",Accepted,"disease maps,
+ pathways,
+ reproducible workflows,
+ Galaxy,
+ visual analytics,
+ interoperability","Analysis of ‘omics’ datasets in biomedicine is challenging due to their high dimensionality and a multitude of necessary processing steps. An important part of the analytical workflow is the interpretation of the results, allowing to select key pathologic agents, enzymes or drug targets. This interpretation can be greatly supported by visualization of the molecules indicated by the analysis in the context of relevant molecular pathways. On the other hand, visualization-based tools require a reproducibility component, allowing to recreate the process of discovery. Galaxy (usegalaxy.eu) ..."
+44,28,Venkata Pardhasaradhi Satagopam,Beacon for clinical and translational data’,"Dr. Venkata Satagopam venkata.satagopam@elixir-luxembourg.org (corresponding author-author1)
+ Dr. Salvador Capella salvador.capella@bsc.es
+ Dr. Jordi Rambla De Argila jordi.rambla@crg.eu
+ Dr. Wei Gu wei.gu@elixir-luxembourg.org","We look forward to the development of:
+ Example implementation of API to report the existence and summary statistics of clinical/phenotypic information.
+ Example implementation of API to report the existence of transcriptomics data (as an example of other OMICs data types)
+ A set of core filters (with ontology links) based on the test datasets (public) that could be extended in the future by the community.
+ We are planning to submit a manuscript on Biohackathon outcome. Between the potential achievements, we could find an extended and lasting collaboration between institutions as well as scientific contributions, exploring the deployment of joint multi-institutional services.","Bioinformaticians and developers working in the areas of API development, ontology, clinical and transcriptomics data processing/analysis.
+  
+ By all means, organisers commit to the proposal with the participation and contribution of Beacon experts, developers, bioinformaticians for the event to ensure the presence of enough human resources and provide momentum during the biohackathon. 3 people from the University of Luxembourg 2 from BSC and 3 from CRG will participate in this Biohackathon topic.","Dr. Tim Beck 
+ UKRI Innovation Fellow at Health Data Research UK
+ Email: timbeck@leicester.ac.uk
+ 
+ Kees van Bochove 
+ Thehyve (and EHDEN)
+ Email: kees@thehyve.nl",4 days,"Cancer
+ Compute Platfrom
+ Federated Human Data
+ Rare Disease","Apr 30, 16:07",Accepted,"Beacon,
+ Data sharing,
+ Clinical data,
+ Federated data,
+ Transcriptomics,
+ Aggregated data",The Global Alliance for Genomics and Health (GA4GH) Beacon Project has shown its great potential in federated discovery of genomic data. It is originally implemented as a tool to share aggregated information (the “existence“) of Single Nucleotide Polymorphisms (SNP) in distributed genomic data collections. This has been later on extended to other types of genomic variants such as structural variants (the “Beacon+”). The ELIXIR team across several nodes has developed a reference implementation of the Beacon protocol. The Beacon protocol has evolved towards more complex applications ...
+45,41,Giacomo Tartari,Further development of Service Bundle pilots and integration with the ELIXIR ecosystem,"Emidio Capriotti <emidio.capriotti@unibo.it>
+ Michael R. Crusoe <mrc@commonwl.org>","Expected outcome: this effort will improve the visibility and usability of the pilot Service Bundles, and pave the road ahead for the future Service Bundles being considered.","People involved in the Rare Disease Service bundle Pilots.
+ People interested in adding tools to the BioContainers ecosystem.
+ People interested in creating CWL workflows.","Emidio Capriotti <emidio.capriotti@unibo.it>
+ Michael R. Crusoe <mrc@commonwl.org>",4,"Containers
+ Rare Disease","Apr 30, 16:08",Accepted,"Service Bundles,
+ CWL,
+ Containers,
+ scientific workflows",Services Bundles are a new mechanism to identify how ELIXIR platforms and communities are able to address specific user needs. In the context of the Service Bundles pilots around Rare Disease we propose a project aimed to complete the offer of the Service Bundles identified so far. The Project will have a dual aspect of creation of containers of the tools not yet available in the BioContainers registry and defining the workflows targeting the use cases driving the Service Bundles. On the BioContainer front we plan to contribute to the recipes in BioConda and take advantage of the ELIXIR ...
+46,,Aravind Venkatesan,From research objects to research – linking biological data with scientific literature,"(Corresponding author) Aravind Venkatesan - avenkat@ebi.ac.uk 
+ Johanna McEntyre - mcentyre@ebi.ac.uk","Creation of interaction networks 
+ Workflow to link literature with underlying data
+ Use cases to demonstrate the inter-connected ecosystem of ELIXIR data resources
+ Exploring the deployment of joint multi-institutional services","Bioinformaticians
+ Developers 
+ Researchers
+ Text-miners 
+ Data Scientists","Francesco Talo, EMBL-EBI, ftalo@ebi.ac.uk",4,"Cancer
+ Covid-19
+ Data Platform
+ Galaxy
+ Interoperability Platform
+ Tools Platform","Apr 30, 16:24",Rejected,"Article triage,
+ Data integration,
+ Literature-Data integration,
+ Knowledge graph,
+ Text mining,
+ bioinformatics workflows,
+ interoperability,
+ Galaxy","The tremendous growth in research papers being published provides challenges for researchers in finding and assimilating scientific conclusions described in literature. Moreover, a single publication may be packed with a whole variety of data, such as author affiliations, funding information, article citations, links to databases, digital identifiers and text-mined concepts. This makes scientific literature an important part of big data in the life sciences, warranting technology and infrastructure to support deep linking of literature to the underlying data. The Elixir Data Platform (EDP) ..."
+47,29,Allegra Via,"Design of a modular learning path (curriculum) in Data Stewardship, Management and Analysis for the Life Sciences","Allegra Via; allegra.via@cnr.it (author1)
+ Loredana Le Pera; loredanalepera@gmail.com
+ Celia van Gelder; celia.van.gelder@dtls.nl
+ Jessica Lindvall; jessica.lindvall@nbis.se
+ Patricia Palagi; Patricia.Palagi@sib.swiss
+ Alexia Cardona; ac812@cam.ac.uk
+ Victoria Dominguez del Angel; victoria.dominguez@france-bioinformatique.fr","A curriculum in Data Stewardship, Management and Analysis for the Life Sciences to be implemented in 2021-2022 and a plan to deliver it. This activity will lead, for each module, to the identification of:
+ 1) Desired KSAs and LOs;
+ 2) Learning Experiences (LEs) supporting the achievement of LOs;
+ 3) Content leading to LOs;
+ 4) Formative and summative assessments.","Curriculum developers, trainers, training providers from ELIXIR nodes involved in CONVERGE, in particular involved in the development of a comprehensive ELIXIR Training programme in Data Stewardship, Management and Analysis. The programme is directed to a data-driven life science community to support ELIXIR users such as data managers and data scientists. The DSMA programme will also couple to the national training programmes in Data management and Data Driven life science across the ELIXIR nodes.","Patricia Palagi 
+ Alexia Cardona",4,"Data Platform
+ Training Platform","Apr 30, 16:46",Accepted,"Curriculum development,
+ Learning Path,
+ Data Stewardship,
+ Data Management,
+ Data Analysis","In the context of ELIXIR-CONVERGE, a pilot Learning Path (LP) in Data Stewardship, Management and Analysis (DSMA) for the Life Sciences will be designed (phase 1), delivered (phase 2) and assessed (phase 3). This task will build on the experience and expertise of ELIXIR nodes and CONVERGE WPs. The LP will consist of a set of learning modules, which can be also attended as independent training events by users who only need to fill specific gaps. This BH project focuses on phase 1. It consists in a collaborative curriculum design activity that will pave the road for the development of ..."
+48,,Ulrich Rabenstein,Language patterns and language change in press coverage during Covid-19 crisis - a linguistic perspective,"Ulrich Rabenstein (ulrich.rabenstein@posteo.de)
+ 
+ Joachim Peters (joachim.peters@studium.uni-erlangen.de)","With our analysis of language usage in Covid19-related articles, we want to
+ - … identify important topics in the discourse (key problems, solution strategies, arguments …). This step may refer to lockdown measures, liftings of restrictions, individual political positions, arguments used by medical professionals
+ - … identify actors and their role in the discourse (politicians, medical experts, research institutes, authorities) 
+ - … generate a knowledge graph for persisting our results and to make them available to others, i.e. attach identified topics and actors to articles","- Experience in natural language processing and text mining
+ - Experience in linguistic analysis
+ - Experience in knowledge graphs","Ulrich Rabenstein (ulrich.rabenstein@posteo.de)
+ Joachim Peters (joachim.peters@studium.uni-erlangen.de)",4,"Covid-19
+ Data Platform
+ Machine learning","Apr 30, 17:06",Rejected,"Covid-19,
+ computational linguistics,
+ knowledge graphs,
+ topic modelling","We assume that the Corona crisis is strongly affecting language use in German-language online media. Large parts of public life are shut down or subject to severe restrictions, which of course has an impact on reporting. In history, this is a completely new situation, to which authors of newspaper articles probably react with a typical language style. Our project aims to systematically describe language use in a corpus of covid-19 press articles. The analysis of emerging significant lexis and lexical patterns is a common approach in linguistics. Following the linguistic analysis, we also ..."
+49,30,Núria Queralt Rosinach,Epidemiology and monitoring ontology for COVID-19,"Núria Queralt-Rosinach [ nqueralt.r@gmail.com ], 
+ Robert Hoehndorf [ robert.hoehndorf@kaust.edu.sa ], 
+ Paul N Schofield [ pns12@hermes.cam.ac.uk ], 
+ Philippe Rocca-Serra [ philippe.rocca-serra@oerc.ox.ac.uk ]
+ Rajaram Kaliyaperumal [ R.Kaliyaperumal@lumc.nl ]","Expected outcomes and prioritization: First to develop an epidemiology information model in OBO focused on quantitative indicators; Incorporate this model in an existing resource for the community.
+ 
+ From the first list of epidemiological quantitative terms analyzed, our plan is to: 1) add new COVID-19 relevant content through manual extraction from publications in medrXiv and or case report forms 2) try to map these to existing OBO ontologies 3) refine the list of terms with epidemiologists 4) define and implement axiom patterns 5) contact ontology stakeholders to define what is missing and either to ask for extensions to existing ontologies or to build a new, logically well-formed, and accurate ontology in OBO. We plan to perform two rounds of work, a first round to focus on quantitative indicators and a second round to expand to other indicators such as WHO indicators [3].
+ 
+ [3] https://www.who.int/healthinfo/indicators/2015/metadata/en/","Curators, epidemiologists, ontologists, biomedical scientists, FAIRData experts.","Núria Queralt-Rosinach [ nqueralt.r@gmail.com ],
+ Rajaram Kaliyaperumal [ R.Kaliyaperumal@lumc.nl ]",4 days,"Covid-19
+ Data Platform
+ Federated Human Data
+ Interoperability Platform","Apr 30, 17:09",Accepted,"Ontology,
+ Axioms,
+ Epidemiology,
+ Clinical human data,
+ Interoperability,
+ COVID-19,
+ Infectious diseases,
+ Surveillance","Epidemiological data is necessary to monitor public health, and to assess the impact of disease outbreaks and efficacy of mitigating interventions. In the context of an infectious disease outbreak it is imperative to have these data as FAIR as possible to facilitate rapid analysis to support timely evidence-based decision making. During the past virtual BioHackathon-COVID-19 we evaluated the availability of some epidemiological quantitative indicators in OBO ontologies and detected that while between the Statistics ontology [1] and Epidemiology Ontology (EPO) we have many of the usual ..."
+50,31,Kiran K Telukunta,Deploying biocontainers in orchestration environments for life science research,Kiran K Telukunta <kiran.telukunta@psb.vib-ugent.be>,"* Guidelines and specifications to run containers in orchestration
+ * Making more containers deployable into cloud environments
+ * Hassle free deployment of biocontainers
+ * Understanding the challenges of cloud deployment and orchestration","* researchers working or maintaining cloud infrastructure
+ * Groups which want to migrate to cloud environments and moving towards work from home approach","Pablo Moreno<pmoreno@ebi.ac.uk> Expression Atlas Data Production Project Lead
+ Nuwan Goonasekera<nuwan.goonasekera@unimelb.edu.au>",4,"Compute Platfrom
+ Containers
+ EOSC-life
+ Galaxy
+ Tools Platform","Apr 30, 17:42",Accepted,"biocontainers,
+ cloud,
+ orchestration,
+ kubernetes,
+ nextflow,
+ galaxy","Packaging tools in containers is becoming a common practice in bioinformatics to ensure reproducible research. However, usage of orchestration platforms, such as Kubernetes, is in the community not yet broadly adopted. EOSC-Life is planning to provide such environments as part of the compute resources, which implies we need to enable developers to take advantage of them. In this Hackathon depending on the knowledge of participants we will start with introducing Kubernetes and helm charts environments for biocontainers by deploying some sample containers. We will also see minimal ..."
+51,,Leyla Garcia,Wikibase structured metadata for preprints in the life sciences,"Konrad Förstner <foerstner@zbmed.de>
+ Leyla Garcia <ljgarcia@zbmed.de>","* Preprint Wikibase instance compatible with Wikidata supporting MedrXiv and BiorXiv
+ * Federated sample queries using Preprint Wikibase and Wikidata
+ * Initial assessment on additional structured data models that could be used for data exchange, e.g., Bioschemas
+ * Initial assessment on additional preprints that could be also integrated
+ * Initial assessment on extensions to scholarly publications looking to enrich the publication metadata, e.g., text-mining","* Experience with Wikidata/Wikibase
+ * Experience with structured data
+ * Experience with data extraction","* Eva Seidlmayer <seidlmayer@zbmed.de>
+ * Konrad Förstner <foerstner@zbmed.de>",4,"Covid-19
+ Data Platform
+ Interoperability Platform
+ Tools Platform","Apr 30, 17:45",Rejected,"Wikibase,
+ Preprints,
+ Linked data,
+ Semantic web,
+ Infrastructure","With the rapid pace of approaches, methods, and discoveries in Life Sciences, combined with costs and review time required to publish on peer-reviewed journals, researchers sometimes opt for the quick model offered by preprints. Different from peer-reviewed journals, preprints are not commonly indexed by main scholarly publication repositories. Furthermore, not all of them provide data access via an API and when they do, there is no common standard, making it more difficult for users to extract and process structured metadata. Wikidata currently includes scholarly publications with a share ..."
+52,32,Flora D'Anna,User interface for plant experimental metadata management: EBI(DSP)-ISA-FAIRDOMHub/SEEK harmonization,"Name: Flora D’Anna
+ Email: flora.danna@ugent.vib.be","1) FAIRDOMHub/SEEK compliance to ISA formats
+ 2) Possibility to incorporate standard metadata schema in FAIRDOMHub/SEEK, such as MIAPPE, to describe experimental data
+ 3) Proof of concept for exporting data from FAIRDOMHub/SEEK to EBI repositories","Ideally, the project requires experts in ISA format, EBI repositories, DSP and Plant data standards specifications, but would benefit from the contribution of any life science researcher interested in data management platform for FAIR data.","- Stuart Owen, UMAN for FAIRDOMHub/SEEK, stuart.owen@manchester.ac.uk
+ - Philippe Rocca-Serra, Uni of Oxford for ISA format, philippe.rocca-serra@oerc.ox.ac.uk",4 days,"Data Platform
+ Interoperability Platform
+ Plant Sciences
+ Tools Platform","Apr 30, 18:12",Accepted,"FAIRDOMHub,
+ SEEK,
+ ISA format,
+ MIAPPE,
+ BrAPI,
+ EBI repositories,
+ Data Submission Portal,
+ Experimental metadata schemas","Despite the general demand for research data that meet FAIR principles (Findability, Accessibility, Interoperability and Reusability), there are very few tools available that try to help researchers generate FAIR data by design. FAIRDOMHub/SEEK is a very flexible platform for sharing research projects; ISA tools and formats are a general purpose framework to collect and communicate complex metadata from experiments employing a combination of technologies. Both systems are used by several scientific communities, within ELIXIR and beyond, as suitable systems for research data management. ..."
+53,33,Quentin Groom,Connecting molecular sequence to their voucher specimens,"Quentin Groom quentin.groom@plantentuinmeise.be (corresponding author)
+ Mathias Dillen mathias.dillen@plantentuinmeise.be
+ Pieter Huybrechts pieter.huybrechts@plantentuinmeise.be
+ Maarten Trekels maarten.trekels@plantentuinmeise.be
+ Andra Waagmeester andra@micel.io","The outcome of the hackathon will be (1) recommendations on how specimen and sequence databases should be connected in the future (2) an analysis of the types of data available in databases suitable to find links and (3) the scripts implementing algorithms to match data. Ultimately, these outcomes will help any collection connect its data better and will support the Elixir goals of improving human and machine readable access to all data in the biological sciences.","scripting (Python, R)
+ linked open data SPARQL
+ Understanding of biological collection data and the metadata associated with molecular sequence data",Maarten Trekels,4,Biodiversity,"Apr 30, 18:19",Accepted,"specimens,
+ DNA sequence,
+ voucher,
+ linking,
+ person identifier","When sequencing DNA from an organism, it is standard practice to create voucher specimens. This ensures that the results are repeatable and that the identification of the organism can be verified. These vouchers are often stored in herbaria and museums, where they are curated and stored for the long-term. Similarly, DNA is also extracted from specimens already in collections, having been collected some time ago. In both cases, it is important both to be able to know all the sequences extracted from a specimen and find the specimen from which the sequences have been extracted. Yet, currently ..."
+54,34,Maria Peña-Chilet,Development of a tool for mechanistic meta-analyses using COVID-19 available data as proof of concept,"Maria Peña-Chilet (author)
+ mariapch84@gmail.com
+ 
+ Joaquin Dopazo (corresponing author)
+ joaquin.dopazo@juntadeandalucia.es
+ Clinical Bioinformatics Area - FPS (Fundacion Progreso y Salud)","The final outcome of this project is a user-friendly web-based tool that will retrieve transcriptomic data from a given disease, or diseases, and perform a meta-analysis, on both gene expression and pathway activation.
+ 
+ Scripting: 
+ An optimized workflow using python and R to retrieve and integrate transcriptomic information from several repositories and to integrate data and perform meta-analyses.
+ Choose data repositories.
+ Establish a data retrieval method.
+ Explore study information and relevant metadata.
+ Define standardization of data and metadata.
+ Search for to account for data structure, heterogeneity and cross-platform issues.
+ Develop a pipeline for meta-analysis.
+ Perform gene expression meta-analysis of available COVID-19 data.
+ Perform pathway activity meta-analysis of available COVID-19 data.
+ If there are no sufficient number of COVID-19 studies, we will explore data from other respiratory syndromes such as SARS, MERS or influenza.
+ 
+ Coding: 
+ A web tool structure that will allocate the tool functionalities as modules that will run the developed scripts, the web development will be focused on data visualization. 
+ Decide type of data to visualize.
+ Establish output and input data.
+ Define data structure.
+ 
+ Both workgroups (scripters and coders) will work parallel, but have some dependencies that need to be addressed.","Scripters and helpers
+ Data scientists, Biostatisticians, Biologists or Biotechnologists and Bioinformatics.
+ 
+ Coders
+ Software engineers, Front-end developers, Web developers.
+ 
+ Some desired, but not mandatory, skills:
+ Statistics, knowledge of biomedicine or bioinformatics, programming skills, scripting, python, R, R/Shiny, React, JavaScript, data visualization libraries such as D3 or cytoscapeJS.","Maria Peña-Chilet mariapch84@gmail.com
+ Jose Luis Fernandez-Rueda josel.fernandez.rueda@juntadeandalucia.es",4 days,"Covid-19
+ Data Platform
+ Tools Platform","Apr 30, 18:49",Accepted,"Meta-analysis,
+ Mechanistic analysis,
+ Transcriptomics,
+ Web Tool development,
+ Data reusability,
+ Data accessibility","The development of biomedical high-throughput technologies has made omic analyses more affordable and, thus, accessible. This technological boom has rapidly taken us to a scenario where we are gathering a vast amount of data at public repositories, such as GEO, EGA, SRA or ArrayExpress, changing the data challenge, that now lies in the integration of all the available data, and in drawing conclusions from it as a whole. Given the recent events of COVID-19 pandemic, we expect to be flooded with a huge amount of omics data from cells or patients infected with SARS-CoV-2 in the upcoming ..."
+55,35,Jose Emilio Labra Gayo,Knowledge graphs and wikidata subsetting,"Jose Emilio Labra Gayo, labra@uniovi.es (corresponding author)
+ Andra Waagmeester, andra@micel.io
+ Eric Prud’hommeaux, eric@w3.org
+ Dan Brickley, danbri@danbri.org
+ John Samuel, john.samuel@cpe.fr",We want to create a knowledge graph extraction tool that will allow a bioinformatician to easily generate useful subsets from Wikidata or similar knowledge graphs based on ShEx schemas. Those datasets can be later used for efficiently analysing the subset data. They could also be used to generate reproducible subsets from wikidata and other large knowledge graphs. The prototype tool will be a WikidataIntegrator module that could be used to extract on demand wikibase instances for specific use cases.,"- Bio-data scientists and domain experts interested in data analytics
+ - Researchers interested in open science and reproducible workflows
+ - Bioinformaticians and programmers, or anyone with technical background","Alejandro González Hevia, alendrgh11@gmail.com
+ Jose Emilio Labra Gayo, labra@uniovi.es",4,"Bioschemas
+ Compute Platfrom
+ Containers
+ Covid-19
+ Data Platform
+ Federated Human Data
+ Interoperability Platform
+ Tools Platform","Apr 30, 18:59",Accepted,"ShEx,
+ Wikidata,
+ RDF,
+ Data extraction,
+ Reusable data,
+ Open science,
+ Reproducible data,
+ Citation analysis,
+ Computational workflows","During the last years there were multiple biohackathon efforts to develop mechanisms which extract subsets from linked data. One example would be the G2G language created in a 2019 Biohackathon-Europe project, which used a mixture of SPARQL expressions and Cypher patterns to extract property graphs. An initial effort started during SWAT4(HC)LS to define the topical use cases and main methods. Later, at the virtual Covid-19 biohackathon in April, an initial prototype was started to use ShEx schemas to define the subsets to be extracted from a wikibase instance. There are several benefits and ..."
+56,36,Kevin Herald Reierskog,Enabling interactive R analyses in the InterMine user interface,Kevin Herald Reierskog - khr29@cam.ac.uk,"Provide a functional R editor in BlueGenes that allows you to manipulate and plot the query result data, with feedback displayed in the webapp.","- Experience with sandboxing language runtimes to safely execute untrusted code
+ - People with experience in R","Kevin Herald Reierskog - khr29@cam.ac.uk
+ Sergio Contrino - contrino.it@gmail.com",4,Interoperability Platform,"Apr 30, 19:38",Accepted,"R language,
+ Intermine,
+ recommended interoperability resource,
+ graphs,
+ ggplot","InterMine, an ELIXIR Recommended Interoperability Resource, is an open source biological data warehouse deployed worldwide with instances focused on model organisms, human data and even drug targets. There are multiple interfaces to the data, such as RESTful web API, an interactive web application, as well as clients for popular programming languages like Python, JavaScript, Java and R. The current webapp is in the process of being replaced by a modern frontend stack, called BlueGenes. We have developed multiple visualization tools for use in BlueGenes ..."
+57,40,Ben Busby,Creation of a cloud-native server instance that translates cancer graph variations into an OMOP compliant medical record format.,"Ben Busby bbusby@dnanexus.com
+ Jason Chin jchin@dnanexus.com
+ eric.t.dawson@gmail.com
+ anc174@pitt.edu
+ nick.giangreco@gmail.com","A task for generating variation graphs from a set of variants
+ A task for querying variants in a graph, given a set of reads
+ A task for producing OMOP records from cancer variation graphs","Ben Busby -- Bioinformatics
+ Jason Chin -- Graph Algorithms
+ Eric Dawson -- Graph Algorithms
+ Andrew Clugston -- Bioinformatics and OMOP
+ Nick Giangreco -- OMOP","Andrew Clugston -- anc174@pitt.edu
+ Nick Giangreco -- nick.giangreco@gmail.com",4,"Cancer
+ Data Platform
+ Federated Human Data
+ Interoperability Platform","Apr 30, 22:01",Accepted,"Graph Genomes,
+ Oncology,
+ OMOP","We will create a cloud-native server instance that generates cancer graph variations and translates them into an OMOP compliant medical record format. The tumor genome is a combination of somatic variants atop a germline background. Germline variants primarily inform discussions of cancer predisposition, such as the election of many BRCA1/2 mutation careers to undergo preventative surgery given their increased lifetime risk for cancer development. The germline plays a particularly important role in childhood cancers such as rhabdomyosarcoma (PTCH1/PTCH2 mutations). A tumor’s somatic ..."
+58,37,Toshiaki Katayama,Accelerating integrated use of biomedical databases through semantic data modeling,Toshiaki Katayama <ktym@dbcls.jp>,"Provides a data science platform for the biomedical domain by creating:
+ * schema diagrams for each database
+ * queries for each database
+ * integrated use of databases
+ * machine-learning applications","Biomedical database developers and users,
+ Data scientists and Machine learning experts,
+ Biomedical researchers who have experience of clinical interpretation","Toshiaki Katayama <ktym@dbcls.jp>
+ Shuichi Kawashima <kwsm@dbcls.rois.ac.jp>
+ Daisuke Satoh <daisuke.satoh@lifematics.co.jp>
+ Ryosuke Kojima <kojima.ryosuke.8e@kyoto-u.ac.jp>
+ Mayumi Kamada <mkamada@kuhp.kyoto-u.ac.jp>",4 days,"Data Platform
+ Interoperability Platform
+ Machine learning
+ Tools Platform","Apr 30, 23:58",Accepted,"Biomedical database,
+ Semantic Web,
+ Data integration,
+ Machine learning","From the interpretation of variant to large scale data sciences, it is essential to use biomedical databases in an integrated manner. For this purpose, we produced Resource Description Framework (RDF) datasets in the Med2RDF project (http://med2rdf.org/) including ClinVar, ExAC/gnomAD, ICGC, CIViC, DGIdb, HiNT, INstruct, CCLE, dbNSFP, MedGen, and HGNC. However, the utilization of integrated data was still hard for users (especially non-engineers) due to a lack of the best tooling to capture the complex data models. Actually, although RDF datasets have been constructed around the world, they ..."
