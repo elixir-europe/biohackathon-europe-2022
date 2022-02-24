@@ -3,15 +3,15 @@
 
 # Site settings
 title: BioHackathon Europe
-description: Barcelona 8-12 November 2021
+description: Paris 7-11 November 2022
 owner: Elixir HUB # or company name
-first_published: 2021 # if migrating another site, the year of your first publish
+first_published: 2022 # if migrating another site, the year of your first publish
 email: webmaster@elixir-europe.org
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://elixir-europe.github.io/biohackathon-europe-2021/" # the base hostname & protocol for your site
+url: "https://elixir-europe.github.io/biohackathon-europe-2022/" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/hashtag/BioHackEU21
-  github: https://github.com/elixir-europe/biohackathon-europe-2021
+  twitter: https://twitter.com/hashtag/BioHackEU22
+  github: https://github.com/elixir-europe/biohackathon-europe-2022
   #linkedin-square: https://www.linkedin.com/company/9501702
   #facebook-official: https://facebook.com/<username>
   #google-plus-square: https://plus.google.com/u/0/+<username>

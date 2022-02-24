@@ -4,29 +4,27 @@ title: Hacking projects
 body_class: projects
 ---
 
-<h2>Projects for 2021</h2>
-<p>Links to the project folders on GitHub (links open a new tab).</p>
-<section id="hacking-projects">
-    {% assign projectVersions = site.projects | sort: 'modified_date' %}
-    {% assign latestProjects = projectVersions.first %}
-</section>
+<h2>Projects</h2>
+<p>The call for project proposals for BioHackathon Europe 2022 is now open. Submit your project proposal ahead of the deadline <strong>1 April 2022</strong>. Selected hacking topics will be published here once reviewed by the BioHackathon Organising Committee. We are expecting topics to align well with the current interest of life science communities at large. These may include standardised workflows, containerisation, schemas and identifiers, ontology tooling, metadata validation, and training. We encourage submissions of hacking topics from the public and private sector.</p>
 
-    <table>
-      <tr>
-        <th><strong>Project Number</strong></th>
-        <th><strong>EasyChair Number</strong></th>
-        <th><strong>Title</strong></th>
-      </tr>
-        {% for project in latestProjects.project_list %}
-        <tr>
-            <td>{{project.project_number}}</td>
-            <td>{{project.number}}</td>
-            <td><a href="{{project.link}}" target="_blank">{{project.title}}</a></td>
-        </tr>
-        {% endfor %}
-    </table>
+<h3>Call for Proposals</h3> 
+<p>We ask the project leads to submit a proposal through EasyChair that will include the following:</p>
+<ul>
+  <li>A project description no longer than 300 words </li>
+  <li>The three most relevant ELIXIR Platforms/Communities/Focus Groups it will align to </li>
+  <li>Who are the leads, including one person that is nominated as primary lead and main point of contact for communications. All the leads (and only the leads) should be corresponding authors in EasyChair. </li>
+  <li>If your project will be run (a) only in person, (b) hybrid, (c) only virtual.</li>
+  <li>Threed to five expected outcomes for the BioHackathon week</li>
+  <li>One to five long-term expected outcomes and timeframe in months</li>
+  <li>Maximum number of in-person participants that you can accept in your project</li>
+  <li>Maximum number of virtual participants that you can accept in your project</li>
+  <li>Is there a specific person or people (two max) from Europe you would like to invite who are critical to the success of the project? (name /institute/email)</li>
+  <li>How would your project advance if not selected?</li>
+  <li>How will you advance the project after the BioHackathon?</li>
+  <li>GitHub usernames to be added to the GitHub community if the project is selected</li>
+</ul>
 
-<section>
+
 
 
  <!--   <p class="mt-5">Selected hacking topics will be published here once reviewed by the BioHackathon Organising Committee. We are expecting topics to align well with the current interest of life science communities at large. These may include standardised workflows, containerisation, schemas and identifiers, ontology tooling, metadata validation, and training. We encourage submissions of hacking topics from the public and private sector.</p>-->
