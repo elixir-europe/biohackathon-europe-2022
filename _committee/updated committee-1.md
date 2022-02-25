@@ -8,7 +8,7 @@ author: Ricardo
 |**NAME**|**INSTITUTE**|**Responsibility**|
 |:---------------------|:----------------:|:----------|
 | Jen Harrow                 | ELIXIR Hub  | **Chair**  |
-| Leyla Garcia               | ELIXIR Hub - ZB MED | **Vice chair** |
+| Leyla Jael Castro          | ELIXIR Hub - ZB MED | **Vice chair** |
 | Dana Cernoskova            | Scientifika | Organiser  |
 | Martin Cook                | ELIXIR Hub  | Organiser  |
 | Katharina Heil             | ELIXIR Hub  | Organiser  |
