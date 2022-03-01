@@ -1709,7 +1709,7 @@ body.is-loading {
 	>header {
 		@include vendor('background-image',
 		('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-		'url("#{$baseurl}/paris-venue.jpg")'));
+		'url("#{$baseurl}/venue-main-building.jpg")'));
 	}
 }
 
@@ -1717,7 +1717,7 @@ body.is-loading {
 	>header {
 		@include vendor('background-image',
 		('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-		'url("#{$baseurl}/header-about.jpg")'));
+		'url("#{$baseurl}/header-about2.jpg")'));
 	}
 }
 
@@ -1725,7 +1725,7 @@ body.is-loading {
 	>header {
 		@include vendor('background-image',
 		('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-		'url("#{$baseurl}/header-projects.jpg")'));
+		'url("#{$baseurl}/header-projects.webp")'));
 	}
 }
 
