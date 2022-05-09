@@ -4,17 +4,11 @@ layout: landing
 {% assign latest_landing = site.landings | last %}
 <!-- Banner -->
 <section id="banner">
-	<!-- <div class="video" onclick="location.href='{{ site.baseurl }}/about.html'" style="cursor:pointer">
-		<iframe width="100%" height="100%"
-		src="https://www.youtube.com/embed/RNIInb72-z0?autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=RNIInb72-z0"
-		frameborder="0"
-		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</div> -->
 	<div class="inner">
 		<div class="logo-ban">
 			<div class="title">
-				<a href="{{ site.baseurl }}/index.html"><img src="images/logos/bhlogolightnotx.png" alt="BioHackathon logo" /></a>
-				<h2><a href="{{ site.baseurl }}/about.html">{{ site.title }}</a></h2>
+				<img src="images/logos/bhlogolightnotx.png" alt="BioHackathon logo" />
+				<h2>{{ site.title }}</h2>
 				<p>7 - 11 November 2022</p>
 				<!--<p class="special my-5" style="font-size: 1.3em;">Registration has now closed</p>-->
 				
@@ -38,47 +32,34 @@ layout: landing
 			</header>
 			<div class="row">
 				<div class="10u 12u$(medium)">
-					<p>{{ latest_landing.background | markdownify }}</p>
+					{{ latest_landing.background | markdownify }}
 				</div>
 				<div class="2u 12u$(medium)">
 					<div class="image fit vertical-align-middle">
-						<a href="https://elixir-europe.org"><img src="images/logos/elixir_logo_white.png" alt="ELIXIR logo"/></a>
+						<a href="https://elixir-europe.org/"><img src="images/logos/elixir-logo.svg" alt="ELIXIR logo"/></a>
 					</div>
 				</div>
 			</div>
-
 	</div>
-</section>
+
 
 <!-- One -->
-<section class="wrapper spotlight pt-5 pb-5">
+<!-- <section class="wrapper spotlight pt-5 pb-5 style1">
 	<div class="inner">
 			<div class="row">
-				<!-- <div class="5u 12u$(medium)">
-					<img src="images/ryota-yamanaka.jpg" alt="Ryota Yamanaka" style="width: 100%;" loading="lazy" />
-					<p class="small line-height-1 mb-2 mt-3">&ldquo;This hackathon terrifically accelerates our open-source projects, breaking all the barriers between biology and computing, academia and industry, and distances among great participants!&rdquo;</p>
-						<p class="small font-italic line-height-1 muted-color">- Ryota Yamanaka<br /> (Oracle, Regional Product Manager Asia-Pacific)</p>
-				</div>
-				<div class="2u 12u$(medium)">
-
-				</div>
-				<div class="5u 12u$(medium)">
-					<img src="images/niall-beard.jpg" alt="Niall Beard" style="width: 100%;" loading="lazy" />
-					<p class="small line-height-1 mb-2 mt-3">&ldquo;An unmissable opportunity to accelerate development, initiate collaborations, broaden your professional network, and gorge on cheese and wine.&rdquo;</p>
-						<p class="small font-italic line-height-1 muted-color">- Niall Beard<br /> (Senior Research Software Engineer and Training Manager, University of Manchester)</p>
-				</div> -->
-				<div>
 					<img src="images/header-about2.jpg" alt="Ryota Yamanaka" style="width: 100%;" loading="lazy" />
 					
 				</div>
 			</div>
 	</div>
-</section>
+</section> -->
 
 
-<section class="wrapper spotlight style4" id="landing-remote-access">
-	<div class="inner">
+
+	<div class="inner mt-5" id="landing-remote-access">
+		<header class="major mb-2">
 			<h2>Remote access</h2>
+		</header>
 			<p>This year, we are planning to hold the BioHackathon in Paris with remote access available for those that cannot attend the meeting in person. </p>
 <p>We believe the new format will allow everyone to participate in the BioHackathon and deliver tangible outcomes from the selected projects.</p>
 
@@ -88,48 +69,88 @@ layout: landing
 	    </div>
 </section>
 
+<section class="wrapper style2 my-0">
+	<div class="inner">
+<div class="box alt mb-0">
+	<div class="row gtr-60 gtr-uniform">
+		<div class="col-4"><span class="image fit"><img src="images/group-discussion1.webp" alt="Group discussion around a table" loading="lazy" /></span></div>
+		<div class="col-4"><span class="image fit"><img src="images/speaker1.webp" alt="Presenting the results of a project" loading="lazy"></span></div>
+		<div class="col-4"><span class="image fit"><img src="images/table-football.webp" alt="Playing table football" loading="lazy" /></span></div>
+	</div>
+</div>
+</div>
+</section>
+
+
 <!-- Two -->
-<section id="landing-scope" class="wrapper alt style2">
-	<section class="spotlight">
-		<div class="image">
-			<img src="images/people-discussion1.webp" alt="Working around a table" loading="lazy" />
+<!-- <section id="landing-scope" class="wrapper style3">
+	<div class="inner">
+		<div class="row">
+			<div class="5u 12u$(medium)">
+		<h2>Scope</h2>
+		<p>{{ latest_landing.scope | markdownify }}</p>
 		</div>
-		<div class="content">
-			<h2>Scope</h2>
-			<p>{{ latest_landing.scope | markdownify }}</p>
-		</div>
-	</section>
-	<section id="landing-goal" class="spotlight">
-		<div class="image">
-			<img src="images/table-discussion.jpg" alt="Discussion around a table" loading="lazy"/>
-		</div>
-		<div class="content">
+		<div class="7u 12u$(medium)"  id="landing-goal">
 			<h2>Goals</h2>
 			<ul class="x-bottom-padding">
 				<li>Advance the development of an open source infrastructure for data integration to accelerate scientific innovation. We will focus on technology implementations such as FAIR, identifiers, metadata standards, ontologies and metadata catalogues that support the operations across <a href="https://www.elixir-europe.org/platforms">ELIXIR Platforms</a>, <a href="https://www.elixir-europe.org/communities">Communities</a> and <a href="https://elixir-europe.org/focus-groups">Focus Groups</a>.</li>
 				<li>Engage technical people in the bioinformatics community inside and outside ELIXIR to work together on topics of common interest aligned to ELIXIR activities</li>
 				<li>Strengthen the interactions with ELIXIR Platforms, Communities and Focus Groups to establish and reinforce collaborations through hands-on programming activities.</li>
 			</ul>
+
 		</div>
+	</div>
+	</section> -->
+	<section id="landing-scope" class="wrapper style3">
+		<div class="inner">
+			<header class="major mb-2 text-center">
+			<h2>Scope</h2>
+		</header>
+			{{ latest_landing.scope | markdownify }}
+		<header class="major mt-5 pt-5 mb-2 text-center" id="landing-goal">
+			<h2>Goals</h2>
+		</header>
+			<ul class="x-bottom-padding">
+				<li>Advance the development of an open source infrastructure for data integration to accelerate scientific innovation. We will focus on technology implementations such as FAIR, identifiers, metadata standards, ontologies and metadata catalogues that support the operations across <a href="https://www.elixir-europe.org/platforms">ELIXIR Platforms</a>, <a href="https://www.elixir-europe.org/communities">Communities</a> and <a href="https://elixir-europe.org/focus-groups">Focus Groups</a>.</li>
+				<li>Engage technical people in the bioinformatics community inside and outside ELIXIR to work together on topics of common interest aligned to ELIXIR activities</li>
+				<li>Strengthen the interactions with ELIXIR Platforms, Communities and Focus Groups to establish and reinforce collaborations through hands-on programming activities.</li>
+			</ul>
+</div>
 	</section>
-	<section id="landing-funding" class="spotlight">
-		<div class="image">
-			<img src="images/people-room-hacking.webp" alt="Three people showing their painting" loading="lazy" />
+
+
+	<section class="wrapper style2 my-0">
+		<div class="inner">
+	<div class="box alt mb-0">
+		<div class="row gtr-50 gtr-uniform">
+			<div class="col-4"><span class="image fit"><img src="images/table-discussion.webp" alt=""></span></div>
+			<div class="col-4"><span class="image fit"><img src="images/group-discussion2.webp" alt=""></span></div>
+			<div class="col-4"><span class="image fit"><img src="images/audience-duck.webp" alt=""></span></div>
 		</div>
+	</div>
+	</div>
+	</section>
+
+
+	<section id="landing-funding" class="wrapper style3">
+		<div class="inner">
+		<!-- <div class="image">
+			<img src="images/people-room-hacking.webp" alt="Three people showing their painting" loading="lazy" />
+		</div> -->
 		<div class="content">
+			<header class="major mb-2 text-center">
 			<h2>Expenses and funding</h2>
+		</header>
 			<p>Registration for the BioHackathon is free, however you will have to pay your own travel, food and accommodation expenses. ELIXIR will pay expenses for a limited number of participants for accepted projects. More information will be published as it becomes available. </p>
 			<p>Please be aware that those who register as face-to-face participants must stay at the venue for the duration of the event. This is to optimise the value of on-site interaction and collaboration.</p>
 			<!--<a href="{{ site.baseurl }}/registration.html" class="button special">REGISTRATION</a>-->
 			
 		</div>
-	</section>
-	<section id="landing-benefit" class="spotlight">
-		<div class="image">
-			<img src="images/laptop-discussion.jpg" alt="Discussion over a laptop" loading="lazy" />
-		</div>
-		<div class="content">
+	
+		<div class="content pt-5 mt-5 pb-1" id="landing-benefit">
+			<header class="major mb-2 text-center">
 			<h2>Benefits</h2>
+			</header>
 			<h4>New developments</h4>
 			<ul>
 				<li>Integrating prototypes, proof-of-concept proposals or drafts into production</li>
@@ -149,49 +170,44 @@ layout: landing
 				<li>Meet and make new contacts</li>
 			</ul>
 		</div>
-	</section>
-</section>
-
-<!-- Three -->
-<section id="landing-processprop" class="wrapper style4 spotlight">
-	<div class="inner">
-		<h2>Hacking projects</h2>
-<p><strong>The call for project proposals for BioHackathon Europe 2022 has now closed.</strong> Selected hacking topics will be published on this site once reviewed by the BioHackathon Organising Committee.</p>
-
 	</div>
 	</section>
+	<section class="inner wrapper style2">
+		<div class="inner" id="landing-industry">
+			<div class="row">
+				<div class="8u 12u$(medium)">
+			<h2><i class="fas fa-industry"></i> Industry engagement</h2>
+			<p>People from diverse companies are encouraged to participate. If you have any questions, for example regarding the scope of the event, contact the ELIXIR Industry Officer:<br /> Despoina Sousoni<br /><a href="mailto:despoina.sousoni@elixir-europe.org">despoina.sousoni@elixir-europe.org</a></p>
+			<a href="{{ site.baseurl }}/images/biohackathon-2022-industry-flyer.pdf" target="_blank" class="button special">Industry flyer</a>
+			</div>
+			<div class="4u 12u$(medium)">
+				<p class="small line-height-1 mb-2 mt-3">&ldquo;It was an amazing experience...Two teams embraced our challenge to demonstrate the validity of edge computing. We reached our goal of connecting with the bioinformatics community and creating awareness for a new technology.	No doubt we will participate in the future.&rdquo;</p>
+					<p class="small line-height-1">- Natalia Jimenez<br /> (Atos)</p>
+	
+			</div>
+			<!-- <ul class="features">
+				<li class="feat">
+					<h3><i class="fas fa-industry"></i> Industry engagement</h3>
+					<p>Companies interested in submitting hacking projects should submit their project proposals via the Easy Chair Submission System. The projects will be evaluated alongside the academic project proposals by the programme committee. If you have any questions, for example regarding the scope of your project, contact Kathi Lauer (ELIXIR Industry Officer).</p>
+					<a href="{{ site.baseurl }}/images/BioHackathon_Industry_Flyer.pdf" class="button fit special">More info</a>
+					<a href="mailto:katharina.lauer@elixir-europe.org" class="button fit special">Contact</a>
+				</li>
+				<li class="feat">
+					<h3><i class="fa fa-code"></i> Call for proposals</h3>
+					<p>The call for hacking projects is open from <b>2nd March </b>and will close on <b>30th April</b> 2020. All project submissions will submitted through the EasyChair submission system by the nominated project lead and should include the following details </p>
+					<a href="{{ site.baseurl }}/projects" class="button fit special">Projects</a>
+				</li>
+			</ul> -->
+		</div>
+		</section>
+
 <section class="wrapper spotlight" id="coc">
 		<div class="inner">
+			<header class="major mb-2 text-center">
 			<h2>Code of Conduct</h2>
+		</header>
 			<p>The <a href="https://elixir-europe.org/events/code-of-conduct">ELIXIR Code of Conduct</a> has been created so all participants at ELIXIR events organised and/or funded by the ELIXIR Hub can interact with each other in a respectful and safe environment, and have avenues to turn to in case they believe there has been a breach to this Code of Conduct.</p> 
 		</div>
 </section>
 	<!-- Three -->
-	<section id="landing-industry" class="wrapper style3">
-	<div class="inner">
-		<div class="row">
-			<div class="8u 12u$(medium)">
-		<h2><i class="fas fa-industry"></i> Industry engagement</h2>
-		<p>People from diverse companies are encouraged to participate. If you have any questions, for example regarding the scope of the event, contact the ELIXIR Industry Officer:<br /> Despoina Sousoni<br /><a href="mailto:despoina.sousoni@elixir-europe.org">despoina.sousoni@elixir-europe.org</a></p>
-		<a href="{{ site.baseurl }}/images/biohackathon-2022-industry-flyer.pdf" target="_blank" class="button special">Industry flyer</a>
-		</div>
-		<div class="4u 12u$(medium)">
-			<p class="small line-height-1 mb-2 mt-3">&ldquo;It was an amazing experience...Two teams embraced our challenge to demonstrate the validity of edge computing. We reached our goal of connecting with the bioinformatics community and creating awareness for a new technology.	No doubt we will participate in the future.&rdquo;</p>
-				<p class="small font-italic line-height-1 muted-color">- Natalia Jimenez<br /> (Atos)</p>
-
-		</div>
-		<!-- <ul class="features">
-			<li class="feat">
-				<h3><i class="fas fa-industry"></i> Industry engagement</h3>
-				<p>Companies interested in submitting hacking projects should submit their project proposals via the Easy Chair Submission System. The projects will be evaluated alongside the academic project proposals by the programme committee. If you have any questions, for example regarding the scope of your project, contact Kathi Lauer (ELIXIR Industry Officer).</p>
-				<a href="{{ site.baseurl }}/images/BioHackathon_Industry_Flyer.pdf" class="button fit special">More info</a>
-				<a href="mailto:katharina.lauer@elixir-europe.org" class="button fit special">Contact</a>
-			</li>
-			<li class="feat">
-				<h3><i class="fa fa-code"></i> Call for proposals</h3>
-				<p>The call for hacking projects is open from <b>2nd March </b>and will close on <b>30th April</b> 2020. All project submissions will submitted through the EasyChair submission system by the nominated project lead and should include the following details </p>
-				<a href="{{ site.baseurl }}/projects" class="button fit special">Projects</a>
-			</li>
-		</ul> -->
-	</div>
-	</section>
+	

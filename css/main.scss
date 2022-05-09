@@ -66,10 +66,15 @@ a {
 	@include vendor('transition',
 	('color #{_duration(transitions)} ease', 'border-bottom-color #{_duration(transitions)} ease'));
 	border-bottom: dotted 1px;
-	color: inherit;
+	color: #333;
 	text-decoration: none;
 	&:hover {
-		border-bottom-color: transparent;
+		color: _palette(fg-link);
+		border-bottom: solid 1px;
+		text-decoration: none;
+	}
+	&:focus {
+		outline: 2px dotted #f2b90b;
 	}
 }
 
@@ -98,7 +103,7 @@ h6 {
 	font-weight: _font(weight-extrabold);
 	letter-spacing: _size(letter-spacing-alt);
 	line-height: 1em;
-	margin: 0 0 (_size(element-margin) * 0.5) 0;
+	margin: 0 0 (_size(element-margin) * 0.25) 0;
 	text-transform: uppercase;
 	a {
 		color: inherit;
@@ -162,7 +167,6 @@ hr {
 
 blockquote {
 	border-left: solid 4px _palette(border);
-	font-style: italic;
 	font-size: 70%;
 	margin: 0 0 _size(element-margin) 0;
 	padding: 0.5em 0 0.5em 2em;
@@ -441,15 +445,12 @@ input[type="radio"] {
 }
 
 .google-maps {
-
 	@include vendor('order',
 	'1');
 	border-radius: 0;
 	width: 60%;
 	iframe {
 		width: 100%;
-		margin: 0 0 4em 0;
-
 	}
 }
 
@@ -755,6 +756,7 @@ table {
 	}
 	td {
 		padding: 0.75em 0.75em;
+		text-align: left;
 	}
 	th {
 		color: _palette(fg-bold);
@@ -797,6 +799,12 @@ table {
 	}
 }
 
+.committee table {
+	th:first-child {
+		width: 40%;
+	}
+}
+
 /* Button */
 
 input[type="submit"],
@@ -829,6 +837,7 @@ button,
 	text-overflow: ellipsis;
 	&:hover {
 		background-color: _palette(border-bg);
+		border: 0;
 	}
 	&:active {
 		background-color: _palette(border2-bg);
@@ -854,10 +863,10 @@ button,
 		box-shadow: none !important;
 		color: _palette(accent6, fg-bold) !important;
 		&:hover {
-			background-color: lighten(_palette(accent6, bg), 5) !important;
+			background-color: lighten(_palette(accent6, bg), 10) !important;
 		}
 		&:active {
-			background-color: darken(_palette(accent6, bg), 5) !important;
+			background-color: darken(_palette(accent6, bg), 10) !important;
 		}
 	}
 	&.disabled,
@@ -958,6 +967,12 @@ button,
 			border-radius: 0;
 			width: 100%;
 		}
+	}
+	a {
+		color: _palette(fg);
+	}
+	.row .image {
+		width: 100%;
 	}
 	.google-maps {
 		@include vendor('order',
@@ -1177,7 +1192,7 @@ button,
 }
 
 .wrapper {
-	@include padding(6em,
+	@include padding(5em,
 	0);
 	>.inner {
 		width: 60em;
@@ -1196,7 +1211,7 @@ button,
 		@include wrapper(accent1);
 	}
 	&.style2 {
-		background-color: _palette(bg);
+		@include wrapper(accent2);
 	}
 	&.style3 {
 		@include wrapper(accent5);
@@ -1237,7 +1252,6 @@ button,
 		z-index: _misc(z-index-base) + 1;
 	}
 }
-
 #menu {
 	@include vendor('transform',
 	'translateX(20em)');
@@ -1255,6 +1269,7 @@ button,
 	top: 0;
 	width: 20em;
 	z-index: _misc(z-index-base) + 2;
+	
 	ul {
 		list-style: none;
 		padding: 0;
@@ -1273,11 +1288,15 @@ button,
 				display: block;
 				font-size: 0.8em;
 				letter-spacing: _size(letter-spacing-alt);
-				outline: 0;
+				//outline: 0;
 				text-decoration: none;
 				text-transform: uppercase;
 				@include breakpoint(small) {
 					line-height: 3em;
+				}
+				&:hover {
+					cursor: pointer !important;
+					color: _palette(accent3, fg-bold);
 				}
 			}
 			.sub-item {
@@ -1291,11 +1310,15 @@ button,
 					display: inline-block;
 					font-size: 0.65em;
 					letter-spacing: _size(letter-spacing-alt);
-					outline: 0;
+					//outline: 0;
 					text-decoration: none;
 					text-transform: uppercase;
 					@include breakpoint(small) {
 						line-height: 3em;
+					}
+					&:hover {
+						cursor: pointer !important;
+						color: _palette(accent3, fg-bold);
 					}
 				}
 			}
@@ -1350,7 +1373,7 @@ body.is-menu-visible {
 		a {
 			border-bottom: none;
 		}
-		margin: 3px 0 0 2em;
+		margin: 5px 0 0 2em;
 		height: 85%;
 		img {
 			padding: 0.2em;
@@ -1398,8 +1421,9 @@ body.is-menu-visible {
 					letter-spacing: _size(letter-spacing-alt);
 					padding: 0.5em 1.5em;
 					text-transform: uppercase;
+					cursor: pointer;
 					&.menuToggle {
-						outline: 0;
+						//outline: 0;
 						position: relative;
 						&:after {
 							background-image: url('images/bars.svg');
@@ -1472,7 +1496,7 @@ body.is-menu-visible {
 		.title {
 			// position: absolute;
 			// left: 0;
-			color: _palette(accent6, fg-bold);
+			//color: _palette(accent6, fg-bold);
 			// display: inline-block;
 			// position: relative;
 			h2 {
@@ -1708,7 +1732,7 @@ body.is-loading {
 .venue #main {
 	>header {
 		@include vendor('background-image',
-		('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
+		('linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6))',
 		'url("#{$baseurl}/venue-main-building.jpg")'));
 	}
 }
@@ -1716,7 +1740,7 @@ body.is-loading {
 .about #main {
 	>header {
 		@include vendor('background-image',
-		('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
+		('linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6))',
 		'url("#{$baseurl}/header-about2.jpg")'));
 	}
 }
@@ -1724,31 +1748,31 @@ body.is-loading {
 .projects #main {
 	>header {
 		@include vendor('background-image',
-		('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-		'url("#{$baseurl}/header-projects.webp")'));
+		('linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6))',
+		'url("#{$baseurl}/header-table-discussion.webp")'));
 	}
 }
 
 .programme #main {
 	>header {
 		@include vendor('background-image',
-		('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-		'url("#{$baseurl}/header-programme.webp")'));
+		('linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6))',
+		'url("#{$baseurl}/header-tables-discussion.webp")'));
 	}
 }
 
 .registration #main {
 	>header {
 		@include vendor('background-image',
-		('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
-		'url("#{$baseurl}/header-registration.webp")'));
+		('linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6))',
+		'url("#{$baseurl}/header-2019-participants.webp")'));
 	}
 }
 
 .committee #main {
 	>header {
 		@include vendor('background-image',
-		('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
+		('linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6))',
 		'url("#{$baseurl}/header-committee.webp")'));
 	}
 }
@@ -1756,7 +1780,7 @@ body.is-loading {
 .contact #main {
 	>header {
 		@include vendor('background-image',
-		('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
+		('linear-gradient(top, rgba(0,0,0,0.6), rgba(0,0,0,0.6))',
 		'url("#{$baseurl}/header-contact.webp")'));
 	}
 }
@@ -1775,7 +1799,7 @@ body.is-mobile {
 #footer {
 	@include padding(6em,
 	0);
-	background-color: darken(_palette(bg), 8);
+	background-color: _palette(bg);
 	text-align: center;
 	.icons {
 		font-size: 1.25em;
@@ -1833,9 +1857,9 @@ body.is-mobile {
 
 body.landing {
 	#page-wrapper {
-		// @include vendor('background-image',
-		// ('linear-gradient(top, rgba(0,0,0,0.55), rgba(0,0,0,0.75))',
-		// 'url("#{$baseurl}/venue_les_berges.jpg")'));
+		@include vendor('background-image',
+		('linear-gradient(top, rgba(0,0,0,0.55), rgba(0,0,0,0.75))',
+		'url("#{$baseurl}/biohackathon-2021-crowd.jpeg")'));
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;

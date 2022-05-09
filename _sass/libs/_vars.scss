@@ -38,30 +38,44 @@
 // Palette. https://coolors.co/004d98-a50044-edbb00-0a2239-53a2be
 // https://coolors.co/004d98-a50044-edbb00-17255a-f5e2c8
 	$palette: (
-		bg:					#004D98,
-		fg:					#f2efea,
-		fg-bold:			#EDBB00,
-		fg-light:			rgba(255,255,255,0.5),
+		//Teal
+		//bg:					#014660,
+		//Teal2
+		//bg:					#0e5066,
+		//Purple
+		//bg:					#401e65,
+		//Red
+		//bg:					#74122b,
+		// Leaf green
+		bg:					#405839,
+		// Blue
+		//bg:					#0F3a5b,
+		// Raspberry
+		//bg:					#a11a4a,
+		fg:					#fefefe,
+		fg-link:            #0793e0,
+		fg-bold:			#fff,
+		fg-light:			rgba(255,255,255,0.8),
 		border:				#f2efea,
 		border-bg:			rgba(144,144,144,0.25),
 		border2:			#f2efea,
 		border2-bg:			rgba(144,144,144,0.5),
 
 		accent1: (
-			bg:				#004D98,
+			bg:				darken(#405839, 10%),
 			fg-bold:		#f2efea,
 			fg:				mix(#004D98, #f2efea, 25%),
 			fg-light:		mix(#004D98, #f2efea, 40%),
-			border:			rgba(0,0,0,0.125),
+			border:			rgba(255,255,255,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
 			border2-bg:		rgba(255,255,255,0.2)
 		),
 
 		accent2: (
-			bg:				#004D98,
-			fg-bold:		#f2efea,
-			fg:				mix(#004D98, #f2efea, 25%),
+			bg:				#EFEFEF,
+			fg-bold:		#333,
+			fg:				#333,
 			fg-light:		mix(#004D98, #f2efea, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
@@ -71,7 +85,7 @@
 
 		accent3: (
 			bg:				#004D98,
-			fg-bold:		#EDBB00,
+			fg-bold:		#f2b90b,
 			fg:				mix(#004D98, #EDBB00, 25%),
 			fg-light:		mix(#004D98, #EDBB00, 40%),
 			border:			rgba(0,0,0,0.125),
@@ -92,10 +106,10 @@
 		),
 
 		accent5: (
-			bg:				#a50044,
-			fg-bold:		#EDBB00,
-			fg:				mix(#a50044, #f2efea, 25%),
-			fg-light:		mix(#a50044, #f2efea, 40%),
+			bg:				#fefefe,
+			fg-bold:		#555,
+			fg:				#555,
+			fg-light:		#555,
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
@@ -103,8 +117,8 @@
 		),
 		// Buttons 
 		accent6: (
-			bg:				#17255A,
-			fg-bold:		#f2efea,
+			bg:				#f2b90b,
+			fg-bold:		#333,
 			fg:				mix(#17255A, #f2efea, 25%),
 			fg-light:		mix(#17255A, #f2efea, 40%),
 			border:			rgba(0,0,0,0.125),

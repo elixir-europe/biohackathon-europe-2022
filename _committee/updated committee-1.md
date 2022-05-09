@@ -5,10 +5,10 @@ author: Ricardo
 ---
 ## Organising Committee
 
-|**NAME**|**INSTITUTE**|**Responsibility**|
+|**NAME**|**INSTITUTE**|**RESPONSIBILITY**|
 |:---------------------|:----------------:|:----------|
 | Jen Harrow                 | ELIXIR Hub  | **Chair**  |
-| Leyla Jael Castro          | ELIXIR Hub - ZB MED | **Vice chair** |
+| Leyla Jael Castro          | ELIXIR Hub/<br />ZB MED | **Vice chair** |
 | Dana Cernoskova            | Scientifika | Organiser  |
 | Martin Cook                | ELIXIR Hub  | Organiser  |
 | Katharina Heil             | ELIXIR Hub  | Organiser  |
@@ -16,9 +16,9 @@ author: Ricardo
 | Despina Sousoni            | ELIXIR Hub  | Organiser  |
 | Elaine Westwick            | ELIXIR Hub  | Organiser  |
 
-## Programme Committee
+<h2 class="mt-5">Programme Committee</h2>
 
-|**NAME**|**INSTITUTE**|**Responsibility**|
+|**NAME**|**INSTITUTE**|**RESPONSIBILITY**|
 |:---------------------|:----------------:|:----------|
 | Eva Alloza                 | ELIXIR-ES   | Advisor    |
 | Jerven Bolleman            | ELIXIR-CH   | Advisor    |
@@ -30,7 +30,3 @@ author: Ricardo
 | Tazaro Ohta                | External    | Advisor    | 
 | David Salgado              | ELIXIR FR   | Advisor    | 
 | Venkata Satagopam          | ELIXIR-LU   | Advisor    |
-
-
-
-

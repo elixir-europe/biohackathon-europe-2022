@@ -10,8 +10,8 @@ email: webmaster@elixir-europe.org
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://elixir-europe.github.io/biohackathon-europe-2022/" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/hashtag/BioHackEU22
-  github: https://github.com/elixir-europe/biohackathon-europe-2022
+  Twitter: https://twitter.com/hashtag/BioHackEU22
+  GitHub: https://github.com/elixir-europe/biohackathon-europe-2022
   #linkedin-square: https://www.linkedin.com/company/9501702
   #facebook-official: https://facebook.com/<username>
   #google-plus-square: https://plus.google.com/u/0/+<username>
