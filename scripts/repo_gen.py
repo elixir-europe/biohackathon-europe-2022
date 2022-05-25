@@ -27,10 +27,10 @@ import csv
 import yaml
 
 # Adjust PROJECTS_FILE and PROJECTS_REPOSITORY for the current year.
-PROJECTS_FILE = "bhprojects-2021.csv"
+PROJECTS_FILE = "biohackathon-2022-projects.csv"
 PROJECTS_FOLDER = "projects"
 PROJECT_YAML = "projects.yml"
-PROJECTS_REPOSITORY = "https://github.com/elixir-europe/bioHackathon-projects-2021/tree/master/projects/{number}"
+PROJECTS_REPOSITORY = "https://github.com/elixir-europe/bioHackathon-projects-2022/tree/master/projects/{number}"
 
 # Accepted projects column names
 # (In 2021 these columns did not appear in the CSV file.)
@@ -43,18 +43,18 @@ ACPT_PROJECT_SUBMITTER = "submitter"
 # In 2021 the '#' column was the same as the PROJECT_EVENBRITE column.
 # This is wrong. It should be a sequence of numbers 1-[Projects total].
 PROJECT_NUMBER = "#"
-PROJECT_EVENBRITE = "EventBrite"
+#PROJECT_EVENBRITE = "EventBrite"
 PROJECT_AUTHORS = "Authors"
 PROJECT_TITLE = "Title"
 PROJECT_ABSTRACT = "Abstract"
-PROJECT_LEADS = "Leads for Project"
+PROJECT_LEADS = "Main Lead for Project"
 #PROJECT_NOMINATED_PARTICIPANT = "Nominated participant"
 PROJECT_EXPECTED_OUTCOMES = "Expected outcomes"
 PROJECT_EXPECTED_AUDIENCE = "Expected participants"
 PROJECT_NUMBER_OF_EXPECTED_HACKING_DAYS = "Number of days for project"
 PROJECT_HACKING_TOPIC = "Topics"
-PROJECT_DECISION = "Decision"
-PROJECT_PAPER = "paper"
+#PROJECT_DECISION = "Decision"
+#PROJECT_PAPER = "paper"
 
 
 # Create a list of dictionaries from the CSV file. Each dictionary represents a project.
@@ -81,32 +81,32 @@ def load_all_projects():
             if line_count == 0:
                 print(f'Projects column names are {", ".join(row)}')
 
-            if row.get(PROJECT_DECISION) == "Accepted":
-                accepted_count += 1
-                project_link = PROJECTS_REPOSITORY.format(
-                    number=accepted_count)
-                # Create a dictionary for the project. You may need to amend the key/value
-                # assignments below to reflect what columns are in the CSV file. If you do,
-                # don't forget to modify the to_file() function below to print out the fields
-                # that actually exist in the dictionary.
-                project = dict(
-                    number=row.get(PROJECT_EVENBRITE),
-                    authors=row.get(PROJECT_AUTHORS),
-                    title=row.get(PROJECT_TITLE),
-                    leads=row.get(PROJECT_LEADS),
-                    expected_outcomes=row.get(PROJECT_EXPECTED_OUTCOMES),
-                    expected_audience=row.get(PROJECT_EXPECTED_AUDIENCE),
-                    #nominated_participant=row.get(PROJECT_NOMINATED_PARTICIPANT),
-                    number_of_expected_hacking_days=row.get(
-                        PROJECT_NUMBER_OF_EXPECTED_HACKING_DAYS),
-                    hacking_topic=row.get(PROJECT_HACKING_TOPIC),
-                    decision=row.get(PROJECT_DECISION),
-                    abstract=row.get(PROJECT_ABSTRACT),
-                    link=project_link,
-                    project_number=accepted_count,
-                )
-                # Add the current project dictionary to the projects list
-                projects.append(project)
+            
+            accepted_count += 1
+            project_link = PROJECTS_REPOSITORY.format(
+                number=accepted_count)
+            # Create a dictionary for the project. You may need to amend the key/value
+            # assignments below to reflect what columns are in the CSV file. If you do,
+            # don't forget to modify the to_file() function below to print out the fields
+            # that actually exist in the dictionary.
+            project = dict(
+                number=row.get(PROJECT_NUMBER),
+                authors=row.get(PROJECT_AUTHORS),
+                title=row.get(PROJECT_TITLE),
+                leads=row.get(PROJECT_LEADS),
+                expected_outcomes=row.get(PROJECT_EXPECTED_OUTCOMES),
+                expected_audience=row.get(PROJECT_EXPECTED_AUDIENCE),
+                #nominated_participant=row.get(PROJECT_NOMINATED_PARTICIPANT),
+                number_of_expected_hacking_days=row.get(
+                    PROJECT_NUMBER_OF_EXPECTED_HACKING_DAYS),
+                hacking_topic=row.get(PROJECT_HACKING_TOPIC),
+                #decision=row.get(PROJECT_DECISION),
+                abstract=row.get(PROJECT_ABSTRACT),
+                link=project_link,
+                project_number=accepted_count,
+            )
+            # Add the current project dictionary to the projects list
+            projects.append(project)
 
             line_count += 1
     projects.sort(key = lambda project: int(project.get("project_number")))
@@ -136,10 +136,10 @@ def to_file(project):
         output_file.write(
             "\n\n**Project Number:** {}\n\n".format(project.get("project_number")))
 
-        output_file.write(
-            "\n\n**EasyChair Number:** {}\n\n".format(project.get("number")))
+        #output_file.write(
+            #"\n\n**EasyChair Number:** {}\n\n".format(project.get("number")))
 
-        output_file.write("## Team\n\n")
+        #output_file.write("## Team\n\n")
 
         output_file.write("### Lead(s)\n\n")
         output_file.write(project.get("leads"))
