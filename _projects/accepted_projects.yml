@@ -883,7 +883,7 @@ project_list:
   leads: "S\xE9bastien Moretti (sebastien.moretti@sib.swiss)\nKenneth Hoste (kenneth.hoste@ugent.be)\n\
     Alan O\u2019Cais (alan.ocais@cecam.org)\nJurij Pe\u010Dar (jurij.pecar@embl.de)\n\
     Elisabeth Ortega (elisabeth.ortega@hpcnow.com)"
-  link: https://github.com/elixir-europe/biohackathon-projects-2022/tree/main/16
+  link: https://github.com/elixir-europe/biohackathon-projects-2022/tree/main/15
   number: '15'
   number_of_expected_hacking_days: '4'
   project_number: 15
@@ -935,7 +935,7 @@ project_list:
     - Dietrich Rebholz-Schuhmann (rebholz@zbmed.de)
 
     - Ivan Micetic (ivan.micetic@unipd.it)'
-  link: https://github.com/elixir-europe/biohackathon-projects-2022/tree/main/17
+  link: https://github.com/elixir-europe/biohackathon-projects-2022/tree/main/16
   number: '16'
   number_of_expected_hacking_days: '4'
   project_number: 16
@@ -1004,7 +1004,7 @@ project_list:
 
     Tools Platform'
   leads: "N\xFAria Queralt Rosinach, n.queralt_rosinach@lumc.nl"
-  link: https://github.com/elixir-europe/biohackathon-projects-2022/tree/main/15
+  link: https://github.com/elixir-europe/biohackathon-projects-2022/tree/main/17
   number: '17'
   number_of_expected_hacking_days: 4 days
   project_number: 17
