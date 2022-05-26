@@ -11,21 +11,24 @@ body_class: projects
     {% assign latestProjects = projectVersions.first %}
 </section>
 
-    <table>
-      <tr>
-        <th><strong>Project Number</strong></th>
-        <th><strong>Title</strong></th>
-      </tr>
-        {% for project in latestProjects.project_list %}
-        <tr>
-            <td>{{project.project_number}}</td>
-            <td><a href="{{project.link}}" target="_blank">{{project.title}}</a></td>
-        </tr>
-        {% endfor %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="text-uppercase align-middle" scope="col">Project Number</th>
+                <th class="text-uppercase align-middle" scope="col">Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for project in latestProjects.project_list %}
+            <tr>
+                <td>{{project.project_number}}</td>
+                <td><a href="{{project.link}}" target="_blank">{{project.title}}</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
     </table>
 
-<section>
-
+<section class="mt-5">
     <a class="button special" href="{{ site.baseurl }}/ipdiscl.html" class="ml-4">IP Disclaimer</a>
 </section>
 
