@@ -7,14 +7,12 @@ author: Ricardo
 
 |**NAME**|**INSTITUTE**|**RESPONSIBILITY**|
 |:---------------------|:----------------:|:----------|
-| Jen Harrow                 | ELIXIR Hub  | **Chair**  |
+| Katharina Heil             | ELIXIR Hub  | **Chair**  |
 | Leyla Jael Castro          | ELIXIR Hub/<br />ZB MED | **Vice chair** |
 | Dana Cernoskova            | Scientifika | Organiser  |
 | Martin Cook                | ELIXIR Hub  | Organiser  |
-| Katharina Heil             | ELIXIR Hub  | Organiser  |
 | David Lloyd                | ELIXIR Hub  | Organiser  |
-| Despina Sousoni            | ELIXIR Hub  | Organiser  |
-| Elaine Westwick            | ELIXIR Hub  | Organiser  |
+| Zippy Tseng                | ELIXIR Hub  | Organiser  |
 
 <h2 class="mt-5">Programme Committee</h2>
 
