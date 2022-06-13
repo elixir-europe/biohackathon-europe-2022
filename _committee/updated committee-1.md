@@ -20,13 +20,13 @@ author: Ricardo
 
 |**NAME**|**INSTITUTE**|**RESPONSIBILITY**|
 |:---------------------|:----------------:|:----------|
-| Eva Alloza                 | ELIXIR-ES   | Advisor    |
-| Jerven Bolleman            | ELIXIR-CH   | Advisor    |
-| Salvador Capella           | ELIXIR-ES   | Advisor    |
-| Vincenza Colonna           | ELIXIR-IT   | Advisor    | 
+| Ben Busby                  | External    | Advisor    | 
+| Dan Ben-Avraham            | ELIXIR-IL   | Advisor    | 
+| Alban Gaignard             | ELIXIR-FR   | Advisor    | 
 | Björn Grüning              | ELIXIR DE   | Advisor    |
 | Wei Gu                     | ELIXIR-LU   | Advisor    |
-| Tarcisio Mendes            | ELIXIR-CH   | Advisor    | 
+| Nils Hoffmann              | ELIXIR-DE   | Advisor    |
+| Hervé Ménager              | ELIXIR-FR   | Advisor    | 
 | Tazaro Ohta                | External    | Advisor    | 
-| David Salgado              | ELIXIR FR   | Advisor    | 
 | Venkata Satagopam          | ELIXIR-LU   | Advisor    |
+| Marek Suchánek             | ELIXIR-CZ   | Advisor    |
