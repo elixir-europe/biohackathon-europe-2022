@@ -10,8 +10,12 @@ author: Ricardo
 | Katharina Heil             | ELIXIR Hub  | **Chair**  |
 | Leyla Jael Castro          | ELIXIR Hub/<br />ZB MED | **Vice chair** |
 | Dana Cernoskova            | Scientifika | Organiser  |
+| Zuzana Clarke              | ELIXIR Hub  | Organiser  |
 | Martin Cook                | ELIXIR Hub  | Organiser  |
 | David Lloyd                | ELIXIR Hub  | Organiser  |
+| Manthos Pitoulias          | ELIXIR Hub  | Organiser  |
+
+
 | Zippy Tseng                | ELIXIR Hub  | Organiser  |
 
 <h2 class="mt-5">Programme Committee</h2>
