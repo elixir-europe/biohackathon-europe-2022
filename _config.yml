@@ -8,7 +8,7 @@ owner: Elixir Hub # or company name
 first_published: 2022 # if migrating another site, the year of your first publish
 email: webmaster@elixir-europe.org
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://elixir-europe.github.io/biohackathon-europe-2021/" # the base hostname & protocol for your site
+url: "https://elixir-europe.github.io/biohackathon-europe-2022/" # the base hostname & protocol for your site
 social:
   Twitter: https://twitter.com/hashtag/BioHackEU22
   GitHub: https://github.com/elixir-europe/biohackathon-europe-2022
